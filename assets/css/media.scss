@@ -1,0 +1,68 @@
+@media (max-width: 414px) {
+
+
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+    }
+
+    .header-manu-logo {
+        padding: 0px;
+        position: relative;
+        left: 2px;
+    }
+
+    .carousel-inner {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+@media (max-width: 1200px) {
+
+    .modal-content {
+        background-color: white;
+        color: black;
+        width: 782px;
+        padding: 50px;
+        text-align: center;
+        border: none;
+        left: 66px;
+        position: absolute;
+        border-radius: 24px;
+    }
+
+    .dropdown-toggle {
+        position: absolute;
+        right: 40px;
+    }
+
+}
+
+// ----FOTER----
+
+@media screen and (max-width:1000px) {
+    .first {
+        text-align: center;
+    }
+
+    .first h4::after {
+        left: 40%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .third {
+        text-align: center;
+    }
+
+    .third h4::after {
+        left: 40% !important;
+    }
+}
