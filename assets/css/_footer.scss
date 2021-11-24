@@ -3,12 +3,39 @@
     font-size: 18px !important;
     .content-icon{
         i{
+  
             &:hover{
-                color:lightcoral ;
+                color:yellow ;
+               
             }
         }
     }
 }
 .co-footer-contant{
     background: rgba(173, 216, 230, 0.897);
+}
+
+.co-icon-footer{
+    font-size: 25px;
+    
+}
+         
+.fa.fa-facebook{
+    color: blue;
+  
+}
+
+.fa.fa-instagram {
+    color:#d92b6f ;
+}
+
+.fa.fa-twitter{
+    color: #5aa4d6;
+}
+.fa.fa-google{
+    color: #dc3c2a;
+}
+
+.fa.fa-linkedin{
+    color: #5aa4d6;
 }

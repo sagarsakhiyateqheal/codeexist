@@ -62,7 +62,8 @@ li {
   background: lightblue;
   border: none;
   border-radius: 0px;
-  width: 130px;
+  width: 143px;
+  height: 50px;
 }
 
 .co-btn:hover {
@@ -761,11 +762,35 @@ body {
 }
 
 .footer-product .content-icon i:hover {
-  color: lightcoral;
+  color: yellow;
 }
 
 .co-footer-contant {
   background: rgba(173, 216, 230, 0.897);
+}
+
+.co-icon-footer {
+  font-size: 25px;
+}
+
+.fa.fa-facebook {
+  color: blue;
+}
+
+.fa.fa-instagram {
+  color: #d92b6f;
+}
+
+.fa.fa-twitter {
+  color: #5aa4d6;
+}
+
+.fa.fa-google {
+  color: #dc3c2a;
+}
+
+.fa.fa-linkedin {
+  color: #5aa4d6;
 }
 
 @media (max-width: 414px) {
