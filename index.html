@@ -19,896 +19,879 @@
 
 <body>
 
-        <!-- Header -->
-        <nav class="navbar navbar-expand-lg sticky-top shadow-sm  bg-light">
-            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span> <i class="fa fa-bars" aria-hidden="true"></i></span>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg sticky-top shadow-sm  bg-light">
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span> <i class="fa fa-bars" aria-hidden="true"></i></span>
+        </button>
+        <a href="./index.html"><img src="assets/images/signature (5).png" alt="logo" width="200" height="100"
+                class="header-manu-logo "></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="nav-menu">
+                <li class="nav-item active">
+                    <a class="nav-link  text-dark" href="javascript:void(0);"
+                        onclick="scrollTo_fun('Produkte');">Produkte<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="javascript:void(0);"
+                        onclick="scrollTo_fun('Referenzen');">Referenzen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="javascript:void(0);"
+                        onclick="scrollTo_fun('Bewertungen');">Bewertungen</a>
+                </li>
+                <li class="nav-item active mx-3">
+                    <a class="nav-link  co-about-cont" href="./about-us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link co-about-cont" href="./contact us.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="form-inline">
+            <button class="btn co-btn mx-5" data-toggle="modal" data-target="#myModal" type="button">
+                Request Demo
             </button>
-            <a href="#"><img src="assets/images/signature (5).png" alt="logo" width="200" height="100"
-                    class="header-manu-logo "></a>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="nav-menu">
-                    <li class="nav-item active">
-                        <a class="nav-link  text-dark" href="javascript:void(0);"
-                            onclick="scrollTo_fun('Produkte');">Produkte<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="javascript:void(0);"
-                            onclick="scrollTo_fun('Referenzen');">Referenzen</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="javascript:void(0);"
-                            onclick="scrollTo_fun('Bewertungen');">Bewertungen</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="form-inline">
-                <button class="btn co-btn mx-5" data-toggle="modal" data-target="#myModal" type="button">
-                    Request  Demo
-                </button>
-            </div>
-        </nav>
+        </div>
+    </nav>
 
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100"
-                        src="https://images.unsplash.com/photo-1445620466293-d6316372ab59?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29kZSx0ZWNobm9sb2d5fHx8fHx8MTYzNzY2MTQyMg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1900"
-                        alt="First slide" height="800">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100"
+                    src="https://images.unsplash.com/photo-1445620466293-d6316372ab59?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29kZSx0ZWNobm9sb2d5fHx8fHx8MTYzNzY2MTQyMg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1900"
+                    alt="First slide" height="800">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                    src="https://images.unsplash.com/photo-1489506020498-e6c1cc350f10?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29kZSx0ZWNobm9sb2d5fHx8fHx8MTYzNzY2MTM1OQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1900"
+                    alt="Second slide" height="800">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                    src="https://images.unsplash.com/photo-1611485916153-fce531587fe0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29kZSx0ZWNobm9sb2d5fHx8fHx8MTYzNzY2MTQ2Mg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1900"
+                    alt="Second slide" height="800">
+            </div>
+        </div>
+    </div>
+
+    <section class="bg-white">
+        <div class="container">
+            <div class="row py-5  align-items-center">
+                <div class="col-md-6">
+                    <img src="./assets/images/undraw_Video_streaming_re_v3qg.png" style="object-fit: contain;"
+                        width="500" height="500" alt="" data-toggle="modal" data-target=".bd-example-modal-lg">
+
+                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
+                        aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content p-3 rounded ">
+                                <iframe class="w-100" height="550" src="https://www.youtube.com/embed/xuP4g7IDgDM"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100"
-                        src="https://images.unsplash.com/photo-1489506020498-e6c1cc350f10?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29kZSx0ZWNobm9sb2d5fHx8fHx8MTYzNzY2MTM1OQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1900"
-                        alt="Second slide" height="800">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100"
-                        src="https://images.unsplash.com/photo-1611485916153-fce531587fe0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29kZSx0ZWNobm9sb2d5fHx8fHx8MTYzNzY2MTQ2Mg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1900"
-                        alt="Second slide" height="800">
+                <div class="col-md-6">
+                    <h1 class="title py-3">Watch Video</h1>
+                    <div class="reviewsBlockItemText" data-aos="zoom-in">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deserunt cum debitis
+                            nihil quas molestias possimus fugit, aperiam, modi, tempora eos sunt delectus porro esse
+                            in dolore ipsam nulla sapiente?</p>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deserunt cum debitis
+                            nihil quas molestias possimus fugit, aperiam, modi, tempora eos sunt delectus porro esse
+                            in dolore ipsam nulla sapiente?</p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <section class="bg-white">
-            <div class="container">
-                <div class="row py-5  align-items-center">
-                    <div class="col-md-6">
-                        <img src="./assets/images/undraw_Video_streaming_re_v3qg.png" style="object-fit: contain;" width="500" height="500" alt=""
-                            data-toggle="modal" data-target=".bd-example-modal-lg">
+    </section>
 
-                        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
-                            aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content p-3 rounded ">
-                                    <iframe class="w-100" height="550" src="https://www.youtube.com/embed/xuP4g7IDgDM"
-                                        title="YouTube video player" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen></iframe>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <h1 class="title py-3">Watch Video</h1>
-                        <div class="reviewsBlockItemText" data-aos="zoom-in">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deserunt cum debitis
-                                nihil quas molestias possimus fugit, aperiam, modi, tempora eos sunt delectus porro esse
-                                in dolore ipsam nulla sapiente?</p>
-
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deserunt cum debitis
-                                nihil quas molestias possimus fugit, aperiam, modi, tempora eos sunt delectus porro esse
-                                in dolore ipsam nulla sapiente?</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <section class="reviews">
-            <div class="container">
-                <div class="reviewsTitle py-5" data-aos="zoom-in-right">
-                    <p> Kunden denen wir geholfen haben, noch besser zu werden:</p>
-                </div>
-                <div class="reviewsLogo ">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <div class="reviewsLogoItem" data-aos="fade-right">
-                                <img src="https://services.bynd.one/wp-content/uploads/2021/05/logo1.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="reviewsLogoItem" data-aos="fade-right">
-                                <img src="https://services.bynd.one/wp-content/uploads/2021/05/logo22.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="reviewsLogoItem" data-aos="fade-right">
-                                <img src="https://services.bynd.one/wp-content/uploads/2021/05/logo3.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="reviewsLogoItem" data-aos="fade-left">
-                                <img src="https://services.bynd.one/wp-content/uploads/2021/05/logo4.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="reviewsLogoItem" data-aos="fade-left">
-                                <img src="https://services.bynd.one/wp-content/uploads/2021/05/logo5.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="reviewsLogoItem" data-aos="fade-left">
-                                <img src="https://services.bynd.one/wp-content/uploads/2021/05/logo6.svg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="reviewsBlock">
-                        <div class="reviewsBlockItem">
-                            <div class="reviewsBlockItemStars">
-                                <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
-                                <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
-                                <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
-                                <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
-                                <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
-                            </div>
-                            <div class="reviewsBlockItemText" data-aos="zoom-in">
-                                <p> „.. wir haben unsere Nutzer endlich besser verstanden und konzentrieren uns auf das
-                                    Wesentliche!“</p>
-                            </div>
-                        </div>
-                        <div class="reviewsBlockItem">
-                            <div class="reviewsBlockItemStars">
-                                <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
-                                <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
-                                <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
-                                <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
-                                <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
-                            </div>
-                            <div class="reviewsBlockItemText" data-aos="zoom-in">
-                                <p> „.. wir haben unsere Nutzer endlich besser verstanden und konzentrieren uns auf das
-                                    Wesentliche!“</p>
-                            </div>
-                        </div>
-                        <div class="reviewsBlockItem">
-                            <div class="reviewsBlockItemStars">
-                                <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
-                                <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
-                                <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
-                                <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
-                                <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
-                            </div>
-                            <div class="reviewsBlockItemText" data-aos="zoom-in">
-                                <p>„.. wir haben unsere Nutzer endlich besser verstanden und konzentrieren uns auf das
-                                    Wesentliche!“</p>
-                            </div>
-                        </div>
-                        <div class="reviewsBlockItem">
-                            <div class="reviewsBlockItemStars">
-                                <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
-                                <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
-                                <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
-                                <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
-                                <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
-                            </div>
-                            <div class="reviewsBlockItemText" data-aos="zoom-in">
-                                <p> „.. wir haben unsere Nutzer endlich besser verstanden und konzentrieren uns auf das
-                                    Wesentliche!“</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="Produkte">
-            <div class="container">
-                <div class="row d-flex justify-content-center">
-                    <div class="processBlockContent">
-                        <div class="subtitle text-center mt-5 " data-aos="fade-up-right">
-                            UX DESIGN MISSION
-                        </div>
-                        <div class="title text-center mb-5" data-aos="fade-up-right">
-                            Digitale Erlebnisse neu entdecken.
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel" align="center">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active"> <img src="https://i.imgur.com/GV2rUU0.jpg"
-                                        class="rounded"> </div>
-                                <div class="carousel-item"> <img src="https://i.imgur.com/MMfaOcL.jpg" class="rounded">
-                                </div>
-                                <div class="carousel-item"> <img src="https://i.imgur.com/nOeI05p.jpg" class="rounded">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row py-5">
-                    <div class="col-md-4">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <img class="card-img-top my-3"
-                                        src="https://services.bynd.one/wp-content/uploads/2021/06/icon1.svg" alt="" width="391"
-                                        height="55">
-                                    <div class="card-body">
-                                        <p class="bo-card-title text-center">Dauer: 1 Woche -
-                                            <br>
-                                            Lernen und Erkunden
-                                        </p>
-                                        <h2 class="card-text my-4 text-center">UX DISCOVERY.</h2>
-                                        <p class="text-center card-contant-text">- Nutzerforschung</p>
-                                        <p class="text-center card-contant-text">- Analyse</p>
-                                        <p class="text-center card-contant-text">- UX Audit</p>
-                                        <p class="text-center card-contant-text">- Design Thinking</p>
-                                        <p class="text-center card-contant-text">- Workshops</p>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back">
-                                    <h1>UX DISCOVERY</h1>
-                                    <p>Das erwartet Sie: Mit einem datengetriebenen Verständnis finden wir heraus, wer Ihre
-                                        Nutzer sind. Wir identifizieren das Optimierungspotenzial Ihres Produktes, schärfen
-                                        gemeinsam mit Ihnen die Umsetzungspläne Ihres Projektes mit Blick auf die Bedürfnisse
-                                        Ihrer Nutzer, Ihren ersten Ideen und den technischen Anforderungen.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div class="col-md-4">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front bg-dark text-white">
-                                    <img class="card-img-top my-3"
-                                        src="https://services.bynd.one/wp-content/uploads/2021/07/icon-1.svg" alt="" width="391"
-                                        height="55">
-                                    <div class="card-body">
-                                        <p class="bo-card-title text-center">Dauer: 10 Tage -
-                                            <br>
-                                            Umsetzen und Launchen
-                                        </p>
-                                        <h2 class="card-text my-4 text-center">UX SPRINT</h2>
-                                        <p class="text-center card-contant-text">- Wireframes</p>
-                                        <p class="text-center card-contant-text">- Prototyping Hi-Fie</p>
-                                        <p class="text-center card-contant-text">- Visual Design</p>
-                                        <p class="text-center card-contant-text">- UI-Kit</p>
-                                        <p class="text-center card-contant-text">- Digital Styleguide</p>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back bg-dark text-white ">
-                                    <h1>UX SPRINT</h1>
-                                    <p>Das erwartet Sie: Sie bringen Ihre Ideen, Nutzeranalysen und konkreten Anforderungen zu
-                                        Ihrem Produkt mit, wir setzen Ihren Fahrplan um. In einem intensiven Design Sprint bauen
-                                        wir einen Prototypen und das fertige Design für Ihr Produkt.</p>
-                                </div>
-                            </div>
-                        </div>
-        
-                    </div>
-                    <div class="col-md-4">
-                        <div class="flip-card">
-                            <div class="flip-card-inner">
-                                <div class="flip-card-front">
-                                    <img class="card-img-top my-3"
-                                        src="https://services.bynd.one/wp-content/uploads/2021/06/icon3.svg" alt="" width="391"
-                                        height="55">
-                                    <div class="card-body">
-                                        <p class="bo-card-title text-center">Dauer: 10 Tage -
-                                            <br>
-                                            Strategie und neu Denken
-                                        </p>
-                                        <h2 class="card-text my-4 text-center">UX SPRINT</h2>
-                                        <p class="text-center card-contant-text">UX Strategy</p>
-                                        <p class="text-center card-contant-text">- Digitales Branding</p>
-                                        <p class="text-center card-contant-text">- UX Beratung</p>
-                                        <p class="text-center card-contant-text">- UX Training</p>
-                                        <p class="text-center card-contant-text">- Lean UX Methoden</p>
-                                    </div>
-                                </div>
-                                <div class="flip-card-back">
-                                    <h1>UX ENTERPRISE</h1>
-                                    <p>Das erwartet Sie: Wir beleuchten gemeinsam mit Ihnen Ihre Geschäftsvision, die
-                                        Benutzeranforderungen und die technischen Fähigkeiten. Diese stimmen wir aufeinander ab
-                                        und erarbeiten eine Strategie über alle Touchpoints hinweg.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="productsBottom">
-                        <div class="productsText" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                            <p> Einfache Pakete passend zu jedem Bedürfnis: Erkunden? Erfolgreich
-                                Launchen? Das große Bild neu denken und entwerfen? Wir helfen Ihnen ganz
-                                unverbindlich das passende Paket für Ihr Projekt zu finden:</p>
-                        </div>
-                        <div class="productsBtn py-4">
-                            <a href="#" class="bo-btn scrollLink mb-4">Jetzt Anfrage senden</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="process">
-            <div class="container">
-                <div class="processBlock">
-                    <div class="processBlockContent">
-                        <div class="subtitle " data-aos="fade-up-right">
-                            LEAN UX PROZESS
-                        </div>
-                        <div class="title " data-aos="fade-up-right">
-                            Schritt für Schritt zum Ziel
-                        </div>
-                        <div class="processBlockContentText " data-aos="fade-up-right">
-                            Unsere Pakete sind flexibel auf die Anforderungen Ihrer Produkte zugeschnitten. In 1 - 2
-                            wöchigen Zyklen nähern wir uns Schritt für Schritt dem Ziel.
-
-                        </div>
-                    </div>
-                    <div class="processBlockInfo ">
-                        <img src="./assets/images/undraw_bear_market_ania.png" alt="" data-aos="fade-up-left"
-                            width="300" height="300">
-                    </div>
-                </div>
-
-                <div class="processList">
-                    <div class="processListItem">
-                        <img src="./assets/images/undraw_reading_time_gvg0.png" alt=""
-                            data-aos="flip-down">
-                        <div class="processListItemTitle" data-aos="flip-down">
-                            <h3> Erkunden</h3>
-                        </div>
-                        <div class="processListItemText" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                            <p> Wir lernen Ihr Produkt und Ihre Nutzer kennen und konzentrieren uns auf deren
-                                wichtigsten
-                                Wünsche. Die Erkenntnisse übertragen wir auf weitere Nutzergruppen, generieren
-                                Ideen,
-                                legen
-                                Anforderungen fest und priorisieren.</p>
-                        </div>
-                    </div>
-
-                    <div class="processListItem">
-                        <img src="./assets/images/undraw_indoor_bike_pwa4.png" alt=""
-                            data-aos="flip-down">
-                        <div class="processListItemTitle" data-aos="flip-down">
-                            <h3> Cycle 1</h3>
-                        </div>
-                        <div class="processListItemText" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                            <p> Je nach Projektgröße entwickeln wir in 1 - 2 Wochen Zyklen Prototypen, um die
-                                generierten
-                                Ideen an echten Nutzern zu testen und zu validieren.</p>
-                        </div>
-                    </div>
-
-                    <div class="processListItem">
-                        <img src="./assets/images/undraw_Astronaut_re_8c33.png" alt=""
-                            data-aos="flip-down">
-                        <div class="processListItemTitle" data-aos="flip-down">
-                            <h3> Wachstum Cycle n</h3>
-                        </div>
-                        <div class="processListItemText " data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-                            <p> An dieser Stelle wächst Ihr Produkt. Wir wiederholen den Prozess, bringen unsere
-                                Erkenntnisse ein, testen an echten Nutzern weiter und erweitern den
-                                Entwicklungsstand.
-                                Die
-                                UX Ihres Produktes wird immer besser.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="py-5" id="Bewertungen">
-            <div class="container">
-                <div class="title text-center mb-5">
-                    FAQS
-                </div>
-                <div class="row align-items-center">
-                    <div class="col-md-5">
-                        <img src="./assets/images/undraw_searching_p5ux.png " alt="" data-aos="fade-down-right"
-                            width="500" height="400">
-                    </div>
-                    <div class="col-md-7">
-                        <ul class="faq-list  d-block">
-                            <li>
-                                <h4 class="faq-heading">Können die Pakete miteinander kombiniert werden? </h4>
-                                <p class="read faq-text">
-                                    Die Pakete können miteinander kombiniert werden. Abhängig von der Größe Ihres
-                                    Projektes und
-                                    Produktes stellen wir gemeinsam für Sie das bestmögliche Paket zusammen.
-                                </p>
-                            </li>
-                            <li>
-                                <h4 class="faq-heading"> Welche Vorteile hat mein Unternehmen durch UX?</h4>
-                                <p class="read faq-text">
-                                    1. Gute UX steigert Umsatz und spart Kosten 2. Bessere und nachhaltige digitale
-                                    Produkte
-                                    3. Vermeidung von Projekt-Fehlschlägen und teurem Redesign 4. Mehr
-                                    Nutzerzufriedenheit
-                                    und wiederkehrende Kunden 5. Geringere Absprungraten und höhere Warenkorbwerte
-                                    6.
-                                    Einzigartige Ideen und individuelles Design 7. UX als Grundstruktur und
-                                    Fundament 8.
-                                    Steigerung der Business-Intelligenz 9. Bessere Kostenschätzung für technische
-                                    Umsetzung
-                                    10. Klare Anforderungen und Priorisierung
-                                </p>
-                            </li>
-                            <li>
-                                <h4 class="faq-heading">Bauen die Pakete aufeinander auf? </h4>
-                                <p class="read faq-text">
-                                    Die Pakete müssen nicht aufeinander aufbauen. Haben Sie beispielsweise schon
-                                    Daten
-                                    zu Ihrer
-                                    Zielgruppe und einen konkreten Fahrplan, dann können Sie direkt mit dem Design
-                                    Sprint
-                                    starten.
-                                </p>
-                            </li>
-                            <li>
-                                <h4 class="faq-heading">
-                                    Sind die Pakete maßgeschneidert?
-                                </h4>
-                                <p class="read faq-text">
-                                    Ja, die Pakete sind zugeschnitten auf Ihr Projekt und die Anforderungen Ihres
-                                    Produktes. Wir
-                                    passen die Schritte in unserem Prozess auf den Status Ihres Projektes an, um die
-                                    bestmöglichen Ziele zu erreichen.
-                                </p>
-                            </li>
-                            <li>
-                                <h4 class="faq-heading">
-                                    Welches Paket brauche ich? </h4>
-                                <p class="read faq-text">
-                                    Stehen Sie noch ganz am Anfang Ihres Projektes und haben bisher keine konkreten
-                                    Pläne zur
-                                    Umsetzung Ihres Projektes, dann empfehlen wir das Discovery Paket zur
-                                    gemeinsamen
-                                    Erkundung
-                                    Ihrer Nutzer, Ideen und Anforderungen. Wenn Sie einen konkreten Plan haben, dann
-                                    setzen wir
-                                    diesen im Design Sprint um und validieren Ihre Ideen. Wenn Digitalisierung Ihr
-                                    Thema
-                                    ist,
-                                    Sie mehrere Produkte betreuen und strategisch neu denken müssen, dann erarbeiten
-                                    wir
-                                    im
-                                    Enterprise Projekt gemeinsam mit Ihnen die UX Strategie Ihrer Produkte.
-                                </p>
-                            </li>
-                            <li>
-                                <h4 class="faq-heading ">
-                                    Wird auch eine technologische Einschätzung vorgenommen? </h4>
-                                <p class="read faq-text">
-                                    Ja, wir nehmen auch technologische Einschätzungen vor. Unser Development
-                                    Department
-                                    entwickelt Customer Experience Plattformen, Content Management-, Loyalty- und
-                                    Commerce-Lösungen. Dabei kombinieren wir Front-End-Skills mit skalierbaren
-                                    Back-End-Technologien wie Microsoft Azure oder AWS. In Kombination mit
-                                    etablierten
-                                    Systemen
-                                    wie Kentico, Drupal oder Wordpress realisieren wir einen hohen Funktionsumfang
-                                    Out-of-the-Box.
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="process">
-            <div class="container">
-                <div class="processBlock">
-                    <div class="processBlockContent" data-aos="flip-up">
-                        <div class="subtitle ">
-                            DAS SAGEN UNSERE KUNDEN
-                        </div>
-                        <div class="title ">
-                            DAS SAGEN UNSERE KUNDENDiese Unternehmen haben sich durch uns verbessert
-                        </div>
-                        <div class="processBlockContentText ">
-                            Wir arbeiten mit Start-Ups, mittelständischen Unternehmen und Konzernen aus den
-                            unterschiedlichsten Bereichen: Industrie, Unterhaltung, Food, Gesundheit, E-Commerce,
-                            etc.
-
-                        </div>
-                    </div>
-                    <div class="processBlockInfo ">
-                        <img src="./assets/images/undraw_Social_influencer_re_beim.png" alt="" data-aos="flip-down"
-                            width="550" height="450">
-                    </div>
-                </div>
-            </div>
-        </section>
-
+    <section class="reviews">
         <div class="container">
-            <div class="row justify-content-center py-4">
+            <div class="reviewsTitle py-5" data-aos="zoom-in-right">
+                <p> Kunden denen wir geholfen haben, noch besser zu werden:</p>
+            </div>
+            <div class="reviewsLogo ">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="reviewsLogoItem" data-aos="fade-right">
+                            <img src="https://services.bynd.one/wp-content/uploads/2021/05/logo1.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="reviewsLogoItem" data-aos="fade-right">
+                            <img src="https://services.bynd.one/wp-content/uploads/2021/05/logo22.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="reviewsLogoItem" data-aos="fade-right">
+                            <img src="https://services.bynd.one/wp-content/uploads/2021/05/logo3.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="reviewsLogoItem" data-aos="fade-left">
+                            <img src="https://services.bynd.one/wp-content/uploads/2021/05/logo4.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="reviewsLogoItem" data-aos="fade-left">
+                            <img src="https://services.bynd.one/wp-content/uploads/2021/05/logo5.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="reviewsLogoItem" data-aos="fade-left">
+                            <img src="https://services.bynd.one/wp-content/uploads/2021/05/logo6.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="reviewsBlock">
+                    <div class="reviewsBlockItem">
+                        <div class="reviewsBlockItemStars">
+                            <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="reviewsBlockItemText" data-aos="zoom-in">
+                            <p> „.. wir haben unsere Nutzer endlich besser verstanden und konzentrieren uns auf das
+                                Wesentliche!“</p>
+                        </div>
+                    </div>
+                    <div class="reviewsBlockItem">
+                        <div class="reviewsBlockItemStars">
+                            <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="reviewsBlockItemText" data-aos="zoom-in">
+                            <p> „.. wir haben unsere Nutzer endlich besser verstanden und konzentrieren uns auf das
+                                Wesentliche!“</p>
+                        </div>
+                    </div>
+                    <div class="reviewsBlockItem">
+                        <div class="reviewsBlockItemStars">
+                            <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="reviewsBlockItemText" data-aos="zoom-in">
+                            <p>„.. wir haben unsere Nutzer endlich besser verstanden und konzentrieren uns auf das
+                                Wesentliche!“</p>
+                        </div>
+                    </div>
+                    <div class="reviewsBlockItem">
+                        <div class="reviewsBlockItemStars">
+                            <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
+                            <span><i class="fa fa-star p-2" aria-hidden="true"></i></span>
+                        </div>
+                        <div class="reviewsBlockItemText" data-aos="zoom-in">
+                            <p> „.. wir haben unsere Nutzer endlich besser verstanden und konzentrieren uns auf das
+                                Wesentliche!“</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Produkte">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="processBlockContent">
+                    <div class="subtitle text-center mt-5 " data-aos="fade-up-right">
+                        UX DESIGN MISSION
+                    </div>
+                    <div class="title text-center mb-5" data-aos="fade-up-right">
+                        Digitale Erlebnisse neu entdecken.
+                    </div>
+                </div>
+
                 <div class="col-md-6">
-                    <!-- Section Heading-->
-                    <div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" data-aos="fade-right"
-                        data-aos-offset="300" data-aos-easing="ease-in-sine"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                        <h2>Our Creative <span> Team</span></h2>
-                        <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing
-                            page.
-                        </p>
-                        <div class="line" data-aos="fade-up" data-aos-anchor-placement="center-bottom"></div>
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel" align="center">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active"> <img src="https://i.imgur.com/GV2rUU0.jpg"
+                                    class="rounded"> </div>
+                            <div class="carousel-item"> <img src="https://i.imgur.com/MMfaOcL.jpg" class="rounded">
+                            </div>
+                            <div class="carousel-item"> <img src="https://i.imgur.com/nOeI05p.jpg" class="rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row py-5">
+                <div class="col-md-4">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img class="card-img-top my-3"
+                                    src="https://services.bynd.one/wp-content/uploads/2021/06/icon1.svg" alt=""
+                                    width="391" height="55">
+                                <div class="card-body">
+                                    <p class="bo-card-title text-center">Dauer: 1 Woche -
+                                        <br>
+                                        Lernen und Erkunden
+                                    </p>
+                                    <h2 class="card-text my-4 text-center">UX DISCOVERY.</h2>
+                                    <p class="text-center card-contant-text">- Nutzerforschung</p>
+                                    <p class="text-center card-contant-text">- Analyse</p>
+                                    <p class="text-center card-contant-text">- UX Audit</p>
+                                    <p class="text-center card-contant-text">- Design Thinking</p>
+                                    <p class="text-center card-contant-text">- Workshops</p>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <h1>UX DISCOVERY</h1>
+                                <p>Das erwartet Sie: Mit einem datengetriebenen Verständnis finden wir heraus, wer Ihre
+                                    Nutzer sind. Wir identifizieren das Optimierungspotenzial Ihres Produktes, schärfen
+                                    gemeinsam mit Ihnen die Umsetzungspläne Ihres Projektes mit Blick auf die
+                                    Bedürfnisse
+                                    Ihrer Nutzer, Ihren ersten Ideen und den technischen Anforderungen.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front bg-dark text-white">
+                                <img class="card-img-top my-3"
+                                    src="https://services.bynd.one/wp-content/uploads/2021/07/icon-1.svg" alt=""
+                                    width="391" height="55">
+                                <div class="card-body">
+                                    <p class="bo-card-title text-center">Dauer: 10 Tage -
+                                        <br>
+                                        Umsetzen und Launchen
+                                    </p>
+                                    <h2 class="card-text my-4 text-center">UX SPRINT</h2>
+                                    <p class="text-center card-contant-text">- Wireframes</p>
+                                    <p class="text-center card-contant-text">- Prototyping Hi-Fie</p>
+                                    <p class="text-center card-contant-text">- Visual Design</p>
+                                    <p class="text-center card-contant-text">- UI-Kit</p>
+                                    <p class="text-center card-contant-text">- Digital Styleguide</p>
+                                </div>
+                            </div>
+                            <div class="flip-card-back bg-dark text-white ">
+                                <h1>UX SPRINT</h1>
+                                <p>Das erwartet Sie: Sie bringen Ihre Ideen, Nutzeranalysen und konkreten Anforderungen
+                                    zu
+                                    Ihrem Produkt mit, wir setzen Ihren Fahrplan um. In einem intensiven Design Sprint
+                                    bauen
+                                    wir einen Prototypen und das fertige Design für Ihr Produkt.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img class="card-img-top my-3"
+                                    src="https://services.bynd.one/wp-content/uploads/2021/06/icon3.svg" alt=""
+                                    width="391" height="55">
+                                <div class="card-body">
+                                    <p class="bo-card-title text-center">Dauer: 10 Tage -
+                                        <br>
+                                        Strategie und neu Denken
+                                    </p>
+                                    <h2 class="card-text my-4 text-center">UX SPRINT</h2>
+                                    <p class="text-center card-contant-text">UX Strategy</p>
+                                    <p class="text-center card-contant-text">- Digitales Branding</p>
+                                    <p class="text-center card-contant-text">- UX Beratung</p>
+                                    <p class="text-center card-contant-text">- UX Training</p>
+                                    <p class="text-center card-contant-text">- Lean UX Methoden</p>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <h1>UX ENTERPRISE</h1>
+                                <p>Das erwartet Sie: Wir beleuchten gemeinsam mit Ihnen Ihre Geschäftsvision, die
+                                    Benutzeranforderungen und die technischen Fähigkeiten. Diese stimmen wir aufeinander
+                                    ab
+                                    und erarbeiten eine Strategie über alle Touchpoints hinweg.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <!-- Single Advisor-->
-                <div class="col-md-3">
-                    <div class="single_advisor_profile wow fadeInUp shadow " data-wow-delay="0.2s" data-aos="zoom-in"
-                        style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                        <!-- Team Thumb-->
-                        <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="">
-                            <!-- Social Info-->
-                            <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
-                                        class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <!-- Team Details-->
-                        <div class="single_advisor_details_info">
-                            <h6>Kenza Ait Si Abbou</h6>
-                            <p class="designation">Deutsche Telekom &amp; CEO</p>
-                        </div>
+                <div class="productsBottom">
+                    <div class="productsText" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                        <p> Einfache Pakete passend zu jedem Bedürfnis: Erkunden? Erfolgreich
+                            Launchen? Das große Bild neu denken und entwerfen? Wir helfen Ihnen ganz
+                            unverbindlich das passende Paket für Ihr Projekt zu finden:</p>
                     </div>
-                </div>
-                <!-- Single Advisor-->
-                <div class="col-md-3">
-                    <div class="single_advisor_profile wow fadeInUp shadow" data-wow-delay="0.3s" data-aos="zoom-in-up"
-                        style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                        <!-- Team Thumb-->
-                        <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="">
-                            <!-- Social Info-->
-                            <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
-                                        class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <!-- Team Details-->
-                        <div class="single_advisor_details_info">
-                            <h6>Sandra Haslbeck</h6>
-                            <p class="designation">Junge Die Bäckerei</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Advisor-->
-                <div class="col-md-3">
-                    <div class="single_advisor_profile wow fadeInUp shadow" data-wow-delay="0.4s"
-                        data-aos="zoom-in-down"
-                        style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                        <!-- Team Thumb-->
-                        <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="">
-                            <!-- Social Info-->
-                            <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
-                                        class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <!-- Team Details-->
-                        <div class="single_advisor_details_info">
-                            <h6>Riyadh KhanStephan </h6>
-                            <p class="designation">BIG Direkt Gesund</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Advisor-->
-                <div class="col-md-3">
-                    <div class="single_advisor_profile wow fadeInUp shadow" data-wow-delay="0.5s"
-                        data-aos="zoom-in-left"
-                        style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-                        <!-- Team Thumb-->
-                        <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="">
-                            <!-- Social Info-->
-                            <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
-                                        class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <!-- Team Details-->
-                        <div class="single_advisor_details_info">
-                            <h6>Babette Auhagen</h6>
-                            <p class="designation">Aon Assessment</p>
-                        </div>
+                    <div class="productsBtn py-4">
+                        <a href="#" class="bo-btn scrollLink mb-4">Jetzt Anfrage senden</a>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <section class="bo-for">
-            <div class="container">
-                <div class="title mb-5 text-center" data-aos="zoom-out-down">
-                    Title
+    <section class="process">
+        <div class="container">
+            <div class="processBlock">
+                <div class="processBlockContent">
+                    <div class="subtitle " data-aos="fade-up-right">
+                        LEAN UX PROZESS
+                    </div>
+                    <div class="title " data-aos="fade-up-right">
+                        Schritt für Schritt zum Ziel
+                    </div>
+                    <div class="processBlockContentText " data-aos="fade-up-right">
+                        Unsere Pakete sind flexibel auf die Anforderungen Ihrer Produkte zugeschnitten. In 1 - 2
+                        wöchigen Zyklen nähern wir uns Schritt für Schritt dem Ziel.
+
+                    </div>
                 </div>
-                <div class="forBlock ">
-                    <div class="forBlockItem">
-                        <img src=" https://services.bynd.one/wp-content/uploads/2021/05/icon4.svg" alt="">
-                        <div class="forBlockItemTitle">
-                            Produktiv
-                        </div>
-                        <div class="forBlockItemText" data-aos="fade-right" data-aos-offset="300"
-                            data-aos-easing="ease-in-sine">
-                            Keine monatelangen und kostspieligen Projekte: wir überspringen all die Dinge, die uns
-                            von
-                            dem eigentlichen Ziel abhalten und fokussieren uns auf die richtigen Fragestellungen. F
+                <div class="processBlockInfo ">
+                    <img src="./assets/images/undraw_bear_market_ania.png" alt="" data-aos="fade-up-left" width="300"
+                        height="300">
+                </div>
+            </div>
+
+            <div class="processList">
+                <div class="processListItem">
+                    <img src="./assets/images/undraw_reading_time_gvg0.png" alt="" data-aos="flip-down">
+                    <div class="processListItemTitle" data-aos="flip-down">
+                        <h3> Erkunden</h3>
+                    </div>
+                    <div class="processListItemText" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                        <p> Wir lernen Ihr Produkt und Ihre Nutzer kennen und konzentrieren uns auf deren
+                            wichtigsten
+                            Wünsche. Die Erkenntnisse übertragen wir auf weitere Nutzergruppen, generieren
+                            Ideen,
+                            legen
+                            Anforderungen fest und priorisieren.</p>
+                    </div>
+                </div>
+
+                <div class="processListItem">
+                    <img src="./assets/images/undraw_indoor_bike_pwa4.png" alt="" data-aos="flip-down">
+                    <div class="processListItemTitle" data-aos="flip-down">
+                        <h3> Cycle 1</h3>
+                    </div>
+                    <div class="processListItemText" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                        <p> Je nach Projektgröße entwickeln wir in 1 - 2 Wochen Zyklen Prototypen, um die
+                            generierten
+                            Ideen an echten Nutzern zu testen und zu validieren.</p>
+                    </div>
+                </div>
+
+                <div class="processListItem">
+                    <img src="./assets/images/undraw_Astronaut_re_8c33.png" alt="" data-aos="flip-down">
+                    <div class="processListItemTitle" data-aos="flip-down">
+                        <h3> Wachstum Cycle n</h3>
+                    </div>
+                    <div class="processListItemText " data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                        <p> An dieser Stelle wächst Ihr Produkt. Wir wiederholen den Prozess, bringen unsere
+                            Erkenntnisse ein, testen an echten Nutzern weiter und erweitern den
+                            Entwicklungsstand.
+                            Die
+                            UX Ihres Produktes wird immer besser.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5" id="Bewertungen">
+        <div class="container">
+            <div class="title text-center mb-5">
+                FAQS
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <img src="./assets/images/undraw_searching_p5ux.png " alt="" data-aos="fade-down-right" width="500"
+                        height="400">
+                </div>
+                <div class="col-md-7">
+                    <ul class="faq-list  d-block">
+                        <li>
+                            <h4 class="faq-heading">Können die Pakete miteinander kombiniert werden? </h4>
+                            <p class="read faq-text">
+                                Die Pakete können miteinander kombiniert werden. Abhängig von der Größe Ihres
+                                Projektes und
+                                Produktes stellen wir gemeinsam für Sie das bestmögliche Paket zusammen.
+                            </p>
+                        </li>
+                        <li>
+                            <h4 class="faq-heading"> Welche Vorteile hat mein Unternehmen durch UX?</h4>
+                            <p class="read faq-text">
+                                1. Gute UX steigert Umsatz und spart Kosten 2. Bessere und nachhaltige digitale
+                                Produkte
+                                3. Vermeidung von Projekt-Fehlschlägen und teurem Redesign 4. Mehr
+                                Nutzerzufriedenheit
+                                und wiederkehrende Kunden 5. Geringere Absprungraten und höhere Warenkorbwerte
+                                6.
+                                Einzigartige Ideen und individuelles Design 7. UX als Grundstruktur und
+                                Fundament 8.
+                                Steigerung der Business-Intelligenz 9. Bessere Kostenschätzung für technische
+                                Umsetzung
+                                10. Klare Anforderungen und Priorisierung
+                            </p>
+                        </li>
+                        <li>
+                            <h4 class="faq-heading">Bauen die Pakete aufeinander auf? </h4>
+                            <p class="read faq-text">
+                                Die Pakete müssen nicht aufeinander aufbauen. Haben Sie beispielsweise schon
+                                Daten
+                                zu Ihrer
+                                Zielgruppe und einen konkreten Fahrplan, dann können Sie direkt mit dem Design
+                                Sprint
+                                starten.
+                            </p>
+                        </li>
+                        <li>
+                            <h4 class="faq-heading">
+                                Sind die Pakete maßgeschneidert?
+                            </h4>
+                            <p class="read faq-text">
+                                Ja, die Pakete sind zugeschnitten auf Ihr Projekt und die Anforderungen Ihres
+                                Produktes. Wir
+                                passen die Schritte in unserem Prozess auf den Status Ihres Projektes an, um die
+                                bestmöglichen Ziele zu erreichen.
+                            </p>
+                        </li>
+                        <li>
+                            <h4 class="faq-heading">
+                                Welches Paket brauche ich? </h4>
+                            <p class="read faq-text">
+                                Stehen Sie noch ganz am Anfang Ihres Projektes und haben bisher keine konkreten
+                                Pläne zur
+                                Umsetzung Ihres Projektes, dann empfehlen wir das Discovery Paket zur
+                                gemeinsamen
+                                Erkundung
+                                Ihrer Nutzer, Ideen und Anforderungen. Wenn Sie einen konkreten Plan haben, dann
+                                setzen wir
+                                diesen im Design Sprint um und validieren Ihre Ideen. Wenn Digitalisierung Ihr
+                                Thema
+                                ist,
+                                Sie mehrere Produkte betreuen und strategisch neu denken müssen, dann erarbeiten
+                                wir
+                                im
+                                Enterprise Projekt gemeinsam mit Ihnen die UX Strategie Ihrer Produkte.
+                            </p>
+                        </li>
+                        <li>
+                            <h4 class="faq-heading ">
+                                Wird auch eine technologische Einschätzung vorgenommen? </h4>
+                            <p class="read faq-text">
+                                Ja, wir nehmen auch technologische Einschätzungen vor. Unser Development
+                                Department
+                                entwickelt Customer Experience Plattformen, Content Management-, Loyalty- und
+                                Commerce-Lösungen. Dabei kombinieren wir Front-End-Skills mit skalierbaren
+                                Back-End-Technologien wie Microsoft Azure oder AWS. In Kombination mit
+                                etablierten
+                                Systemen
+                                wie Kentico, Drupal oder Wordpress realisieren wir einen hohen Funktionsumfang
+                                Out-of-the-Box.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="process">
+        <div class="container">
+            <div class="processBlock">
+                <div class="processBlockContent" data-aos="flip-up">
+                    <div class="subtitle ">
+                        DAS SAGEN UNSERE KUNDEN
+                    </div>
+                    <div class="title ">
+                        DAS SAGEN UNSERE KUNDENDiese Unternehmen haben sich durch uns verbessert
+                    </div>
+                    <div class="processBlockContentText ">
+                        Wir arbeiten mit Start-Ups, mittelständischen Unternehmen und Konzernen aus den
+                        unterschiedlichsten Bereichen: Industrie, Unterhaltung, Food, Gesundheit, E-Commerce,
+                        etc.
+
+                    </div>
+                </div>
+                <div class="processBlockInfo ">
+                    <img src="./assets/images/undraw_Social_influencer_re_beim.png" alt="" data-aos="flip-down"
+                        width="550" height="450">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row justify-content-center py-4">
+            <div class="col-md-6">
+                <!-- Section Heading-->
+                <div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" data-aos="fade-right"
+                    data-aos-offset="300" data-aos-easing="ease-in-sine"
+                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <h2>Our Creative <span> Team</span></h2>
+                    <p>Appland is completely creative, lightweight, clean &amp; super responsive app landing
+                        page.
+                    </p>
+                    <div class="line" data-aos="fade-up" data-aos-anchor-placement="center-bottom"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Single Advisor-->
+            <div class="col-md-3">
+                <div class="single_advisor_profile wow fadeInUp shadow " data-wow-delay="0.2s" data-aos="zoom-in"
+                    style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <!-- Team Thumb-->
+                    <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="">
+                        <!-- Social Info-->
+                        <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                                    class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a>
                         </div>
                     </div>
-                    <div class="forBlockItem">
-                        <img src=" https://services.bynd.one/wp-content/uploads/2021/05/icon4.svg" alt="">
-                        <div class="forBlockItemTitle">
-                            Zeitgemäß
-                        </div>
-                        <div class="forBlockItemText" data-aos="fade-right" data-aos-offset="300"
-                            data-aos-easing="ease-in-sine">
-                            Wir verfolgen kein traditionelles Agenturmodel, sondern arbeiten in einem
-                            interdisziplinären
-                            Team agil, lean und freundschaftlich auf Augenhöhe - auch mit unseren Kunden.
+                    <!-- Team Details-->
+                    <div class="single_advisor_details_info">
+                        <h6>Kenza Ait Si Abbou</h6>
+                        <p class="designation">Deutsche Telekom &amp; CEO</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Advisor-->
+            <div class="col-md-3">
+                <div class="single_advisor_profile wow fadeInUp shadow" data-wow-delay="0.3s" data-aos="zoom-in-up"
+                    style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    <!-- Team Thumb-->
+                    <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="">
+                        <!-- Social Info-->
+                        <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                                    class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a>
                         </div>
                     </div>
-                    <div class="forBlockItem">
-                        <img src=" https://services.bynd.one/wp-content/uploads/2021/05/icon4.svg" alt="">
-                        <div class="forBlockItemTitle">
-                            Digital
-                        </div>
-                        <div class="forBlockItemText" data-aos="fade-left" data-aos-anchor="#example-anchor"
-                            data-aos-offset="500" data-aos-duration="500">
-                            Durch Iterationen senken wir Entwicklungskosten, optimieren und verbessern stetig. Wir
-                            liefern genau das, was Kunden brauchen und eliminieren das, was sie nicht brauchen.
+                    <!-- Team Details-->
+                    <div class="single_advisor_details_info">
+                        <h6>Sandra Haslbeck</h6>
+                        <p class="designation">Junge Die Bäckerei</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Advisor-->
+            <div class="col-md-3">
+                <div class="single_advisor_profile wow fadeInUp shadow" data-wow-delay="0.4s" data-aos="zoom-in-down"
+                    style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                    <!-- Team Thumb-->
+                    <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="">
+                        <!-- Social Info-->
+                        <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                                    class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a>
                         </div>
                     </div>
-                    <div class="forBlockItem">
-                        <img src=" https://services.bynd.one/wp-content/uploads/2021/05/icon4.svg" alt="">
-                        <div class="forBlockItemTitle">
-                            Hands-On
+                    <!-- Team Details-->
+                    <div class="single_advisor_details_info">
+                        <h6>Riyadh KhanStephan </h6>
+                        <p class="designation">BIG Direkt Gesund</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Advisor-->
+            <div class="col-md-3">
+                <div class="single_advisor_profile wow fadeInUp shadow" data-wow-delay="0.5s" data-aos="zoom-in-left"
+                    style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                    <!-- Team Thumb-->
+                    <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="">
+                        <!-- Social Info-->
+                        <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                                    class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a>
                         </div>
-                        <div class="forBlockItemText" data-aos="fade-left" data-aos-anchor="#example-anchor"
-                            data-aos-offset="500" data-aos-duration="500">
-                            Theorie ist gut, machen ist besser. Im Design Sprint stellen wir die richtigen Fragen
-                            und
-                            generieren schnell anfassbare Prototypen die wir direkt mit echten Usern testen können.
+                    </div>
+                    <!-- Team Details-->
+                    <div class="single_advisor_details_info">
+                        <h6>Babette Auhagen</h6>
+                        <p class="designation">Aon Assessment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="bo-for">
+        <div class="container">
+            <div class="title mb-5 text-center" data-aos="zoom-out-down">
+                Title
+            </div>
+            <div class="forBlock ">
+                <div class="forBlockItem">
+                    <img src=" https://services.bynd.one/wp-content/uploads/2021/05/icon4.svg" alt="">
+                    <div class="forBlockItemTitle">
+                        Produktiv
+                    </div>
+                    <div class="forBlockItemText" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                        Keine monatelangen und kostspieligen Projekte: wir überspringen all die Dinge, die uns
+                        von
+                        dem eigentlichen Ziel abhalten und fokussieren uns auf die richtigen Fragestellungen. F
+                    </div>
+                </div>
+                <div class="forBlockItem">
+                    <img src=" https://services.bynd.one/wp-content/uploads/2021/05/icon4.svg" alt="">
+                    <div class="forBlockItemTitle">
+                        Zeitgemäß
+                    </div>
+                    <div class="forBlockItemText" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                        Wir verfolgen kein traditionelles Agenturmodel, sondern arbeiten in einem
+                        interdisziplinären
+                        Team agil, lean und freundschaftlich auf Augenhöhe - auch mit unseren Kunden.
+                    </div>
+                </div>
+                <div class="forBlockItem">
+                    <img src=" https://services.bynd.one/wp-content/uploads/2021/05/icon4.svg" alt="">
+                    <div class="forBlockItemTitle">
+                        Digital
+                    </div>
+                    <div class="forBlockItemText" data-aos="fade-left" data-aos-anchor="#example-anchor"
+                        data-aos-offset="500" data-aos-duration="500">
+                        Durch Iterationen senken wir Entwicklungskosten, optimieren und verbessern stetig. Wir
+                        liefern genau das, was Kunden brauchen und eliminieren das, was sie nicht brauchen.
+                    </div>
+                </div>
+                <div class="forBlockItem">
+                    <img src=" https://services.bynd.one/wp-content/uploads/2021/05/icon4.svg" alt="">
+                    <div class="forBlockItemTitle">
+                        Hands-On
+                    </div>
+                    <div class="forBlockItemText" data-aos="fade-left" data-aos-anchor="#example-anchor"
+                        data-aos-offset="500" data-aos-duration="500">
+                        Theorie ist gut, machen ist besser. Im Design Sprint stellen wir die richtigen Fragen
+                        und
+                        generieren schnell anfassbare Prototypen die wir direkt mit echten Usern testen können.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-5" id="Referenzen">
+        <div class="container">
+            <div class="processBlockContent ">
+                <div class="subtitle" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    REFERENZPROJEKTE
+                </div>
+                <div class="title" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
+                    data-aos-duration="500">
+                    Unsere Projekte
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="https://services.bynd.one/wp-content/uploads/2021/07/komet-scaled.jpg" alt=""
+                                    class="bo-swiper-img h-75">
+                            </div>
+                            <div class="swiper-slide ">
+                                <img src="https://services.bynd.one/wp-content/uploads/2021/08/Phone-02-scaled.jpg"
+                                    alt="" class="bo-swiper-img h-75">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="	https://services.bynd.one/wp-content/uploads/2021/08/Telekom-_-Initiate-Workshop-Moods-scaled.jpg"
+                                    alt="" class="bo-swiper-img h-75">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://services.bynd.one/wp-content/uploads/2021/08/Junge_Screen01-scaled.jpg"
+                                    alt="" class="bo-swiper-img h-75">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="	https://services.bynd.one/wp-content/uploads/2021/07/EDITION-2-FRONT.png"
+                                    alt="" class="bo-swiper-img h-75">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://services.bynd.one/wp-content/uploads/2021/08/Phone-02-scaled.jpg"
+                                    alt="" class="bo-swiper-img h-75">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="myModal" class="modal fade py-5" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div>
+                        <h1>Your “Request Demo” perks await!</h1>
+                        <p class="subheader-from">Just enter 4 basic details & you are all SET! Why the wait?
+                            Your data is secure with us!</p>
+
+                        <form action="/action_page.php my-4 ">
+                            <input type="text" placeholder=" Enter Yourname" class="my-1 input  co-from-input">
+
+                            <input type="text" placeholder="Enter Your Email" class=" my-2 input  co-from-input">
+
+                            <input type="text" placeholder="Enter Your Company Name" class=" my-2 input  co-from-input">
+
+                            <input type="text" placeholder="Enter Your Moblie Number"
+                                class=" my-2 input  co-from-input">
+
+                            <textarea placeholder=" Message" rows="5" class=" input co-from-textarea my-1"></textarea>
+
+                            <div class="p-2">
+                                <button class=" ml-3 col-md-5  co-btn-from text-white">Request
+                                    For Demo</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center text-lg-start co-footer-contant">
+        <section class="footer-product py-2">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 mb-4">
+                        <h4 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Company name
+                        </h4>
+                        <p>
+                            Here you can use rows and columns to organize your footer content. Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <h4 class="text-uppercase fw-bold mb-4">
+                            About Us
+                        </h4>
+                        <p class="mb-1">
+                            <a href="#!" class="text-reset ">FAQS</a>
+                        </p>
+                        <p class="mb-1">
+                            <a href="#!" class="text-reset">Culture</a>
+                        </p>
+                        <p class="mb-1">
+                            <a href="#!" class="text-reset">Career</a>
+                        </p>
+                        <p class="mb-1">
+                            <a href="#!" class="text-reset">Location</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-3  mb-md-0 mb-4">
+                        <h4 class="text-uppercase fw-bold mb-4 ">
+                            Contact
+                            </h6>
+                            <ul class="footer-product">
+                                <li>
+                                    <p>
+                                        <span class="content-icon">
+                                            <i class="fa fa-map-marker"></i>
+                                        </span>
+                                        Rosenheimer Strasse 117,
+                                        <br>
+                                        81669 Munich.
+                                    </p>
+                                </li>
+                                <li>
+                                    <span class="content-icon">
+                                        <i class="fa fa-envelope"></i>
+                                    </span>
+                                    <a href="#" class="text-dark"> contact@codeexist.de</a>
+                                </li>
+                                <li>
+                                    <span class="content-icon">
+                                        <i class="fa fa-phone"></i>
+                                    </span>
+                                    <a href="#" class="text-dark">+918401565084</a>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="col-md-3  mb-md-0 mb-4">
+                        <h4 class="text-uppercase fw-bold mb-4 ">
+                            Products
+                        </h4>
+                        <div class="footer-product mb-5">
+                            <span class="content-icon">
+                                <i class="fa fa-facebook co-icon-footer p-2 "></i>
+                            </span>
+                            <span class="content-icon">
+                                <i class="fa fa-instagram co-icon-footer p-2"></i>
+                            </span>
+                            <span class="content-icon">
+                                <i class="fa fa-twitter co-icon-footer p-2"></i>
+                            </span>
+
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="pt-5" id="Referenzen">
-            <div class="container">
-                <div class="processBlockContent ">
-                    <div class="subtitle" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                        REFERENZPROJEKTE
-                    </div>
-                    <div class="title" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
-                        data-aos-duration="500">
-                        Unsere Projekte
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="swiper mySwiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <img src="https://services.bynd.one/wp-content/uploads/2021/07/komet-scaled.jpg"
-                                        alt="" class="bo-swiper-img h-75">
-                                </div>
-                                <div class="swiper-slide ">
-                                    <img src="https://services.bynd.one/wp-content/uploads/2021/08/Phone-02-scaled.jpg"
-                                        alt="" class="bo-swiper-img h-75">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="	https://services.bynd.one/wp-content/uploads/2021/08/Telekom-_-Initiate-Workshop-Moods-scaled.jpg"
-                                        alt="" class="bo-swiper-img h-75">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="https://services.bynd.one/wp-content/uploads/2021/08/Junge_Screen01-scaled.jpg"
-                                        alt="" class="bo-swiper-img h-75">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="	https://services.bynd.one/wp-content/uploads/2021/07/EDITION-2-FRONT.png"
-                                        alt="" class="bo-swiper-img h-75">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="https://services.bynd.one/wp-content/uploads/2021/08/Phone-02-scaled.jpg"
-                                        alt="" class="bo-swiper-img h-75">
-                                </div>
-                            </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div id="myModal" class="modal fade py-5" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content ">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <div>
-                            <h1>Your “Request Demo” perks await!</h1>
-                            <p class="subheader-from">Just enter 4 basic details & you are all SET! Why the wait?
-                                Your data is secure with us!</p>
-
-                            <form action="/action_page.php my-4 ">
-                                <input type="text" placeholder=" Enter Yourname" class="my-1 input  co-from-input">
-
-                                <input type="text" placeholder="Enter Your Email" class=" my-2 input  co-from-input">
-
-                                <input type="text" placeholder="Enter Your Company Name"
-                                    class=" my-2 input  co-from-input">
-
-                                <input type="text" placeholder="Enter Your Moblie Number"
-                                    class=" my-2 input  co-from-input">
-
-                                <textarea placeholder=" Message" rows="5"
-                                    class=" input co-from-textarea my-1"></textarea>
-
-                                <div class="p-2">
-                                    <button class=" ml-3 col-md-5  co-btn-from text-white">Request
-                                        For Demo</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="text-center p-4 footer-product" style="background-color: rgba(0, 0, 0, 0.05);">
+            Copyright ©
+            <a class="text-reset fw-bold" href="#"> 2021 codeexist</a>
         </div>
 
-        <footer class="text-center text-lg-start co-footer-contant">
-            <section class="footer-product py-2">
-                <div class="container text-center text-md-start mt-5">
-                    <div class="row mt-3">
-                        <div class="col-md-3 mb-4">
-                            <h4 class="text-uppercase fw-bold mb-4">
-                                <i class="fas fa-gem me-3"></i>Company name
-                            </h4>
-                            <p>
-                                Here you can use rows and columns to organize your footer content. Lorem ipsum
-                                dolor sit amet, consectetur adipisicing elit.
-                            </p>
-                        </div>
+    </footer>
 
-                        <div class="col-md-3  mb-4">
-                            <h4 class="text-uppercase fw-bold mb-4">
-                                Products
-                            </h4>
-                            <p class="mb-1">
-                                <a href="#!" class="text-reset">Angular</a>
-                            </p>
-                            <p class="mb-1">
-                                <a href="#!" class="text-reset">React</a>
-                            </p>
-                            <p class="mb-1">
-                                <a href="#!" class="text-reset">Vue</a>
-                            </p>
-                            <p class="mb-1">
-                                <a href="#!" class="text-reset">Laravel</a>
-                            </p>
-                        </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
-                        <div class="col-md-3">
-                            <h4 class="text-uppercase fw-bold mb-4">
-                                About Us
-                            </h4>
-                            <p class="mb-1">
-                                <a href="#!" class="text-reset ">FAQS</a>
-                            </p>
-                            <p class="mb-1">
-                                <a href="#!" class="text-reset">Culture</a>
-                            </p>
-                            <p class="mb-1">
-                                <a href="#!" class="text-reset">Career</a>
-                            </p>
-                            <p class="mb-1">
-                                <a href="#!" class="text-reset">Location</a>
-                            </p>
-                        </div>
+    <script>
+        $('.faq-heading').click(function () {
 
-                        <div class="col-md-3  mb-md-0 mb-4">
-                            <h4 class="text-uppercase fw-bold mb-4 ">
-                                Contact
-                                </h6>
-                                <ul class="footer-product">
-                                    <li>
-                                        <p>
-                                            <span class="content-icon">
-                                                <i class="fa fa-map-marker"></i>
-                                            </span>
-                                            Rosenheimer Strasse 117,
-                                            <br>
-                                            81669 Munich.
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <span class="content-icon">
-                                            <i class="fa fa-envelope"></i>
-                                        </span>
-                                        <a href="#" class="text-dark"> contact@codeexist.de</a>
-                                    </li>
-                                    <li>
-                                        <span class="content-icon">
-                                            <i class="fa fa-phone"></i>
-                                        </span>
-                                        <a href="#" class="text-dark">+918401565084</a>
-                                    </li>
-                                </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <div class="footer-product mb-5">
-                <span class="content-icon">
-                    <i class="fa fa-facebook co-icon-footer p-2 "></i>
-                </span>
-                <span class="content-icon">
-                    <i class="fa fa-instagram co-icon-footer p-2"></i>
-                </span>
-                <span class="content-icon">
-                    <i class="fa fa-twitter co-icon-footer p-2"></i>
-                </span>
-                <span class="content-icon p-2">
-                    <i class="fa fa-google co-icon-footer" aria-hidden="true"></i>
-                </span>
-                <span class="content-icon p-2">
-                    <i class="fa fa-linkedin co-icon-footer" aria-hidden="true"></i>
-                </span>
-                <span class="content-icon p-2">
-                    <i class="fa fa-github co-icon-footer" aria-hidden="true"></i>
-                </span>
-            </div>
-            <div class="text-center p-4 footer-product" style="background-color: rgba(0, 0, 0, 0.05);">
-                Copyright ©
-                <a class="text-reset fw-bold" href="#"> 2021 codeexist</a>
-            </div>
+            $(this).parent('li').toggleClass('the-active').find('.faq-text').slideToggle();
+        });
+    </script>
 
-        </footer>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
 
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
-
-        <script>
-            $('.faq-heading').click(function () {
-
-                $(this).parent('li').toggleClass('the-active').find('.faq-text').slideToggle();
-            });
-        </script>
-
-        <script>
-            var swiper = new Swiper(".mySwiper", {
-                slidesPerView: 3,
-                spaceBetween: 30,
-                slidesPerGroup: 3,
-                loop: true,
-                loopFillGroupWithBlank: true,
-                pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                },
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                },
-            });
-
-            function scrollTo_fun(id) {
-                $('html, body').animate({
-                    scrollTop: $('#' + id).offset().top - 116
-                }, 300);
-            }
-        </script>
+        function scrollTo_fun(id) {
+            $('html, body').animate({
+                scrollTop: $('#' + id).offset().top - 116
+            }, 300);
+        }
+    </script>
 
 
-    </body>
+</body>
 
 </html>
