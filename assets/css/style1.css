@@ -17,7 +17,6 @@ li {
 
 .nav-menu {
   display: block;
-  width: 1400px;
   margin: 0px auto 0px;
 }
 
@@ -28,7 +27,7 @@ li {
 }
 
 .nav-menu li a {
-  color: bl;
+  color: black;
   display: block;
   text-decoration: none;
   font-family: 'Roboto Condensed', sans-serif;
@@ -428,7 +427,6 @@ li {
   padding: 27px 30px;
   margin: 0px auto 30px;
   text-align: left;
-  width: 700px;
 }
 
 .faq-list .faq-heading::before {
@@ -1352,7 +1350,6 @@ textarea.input1 + .shadow-input1 {
   }
   .nav-menu {
     display: block;
-    width: 1400px;
     margin: 0px auto 0px;
   }
   .nav-menu li {
