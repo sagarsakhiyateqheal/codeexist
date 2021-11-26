@@ -1,4 +1,49 @@
 @media (max-width: 414px) {
+  html,
+  body {
+    width: 100vh;
+  }
+  .navbar-expand-lg .navbar-nav {
+    left: 122px;
+    width: 100%;
+  }
+  .nav-menu {
+    display: block;
+    width: 1400px;
+    margin: 0px auto 0px;
+  }
+  .nav-menu li {
+    float: revert;
+  }
+  .nav-menu li a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    overflow: visible;
+    line-height: 0px;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 27px 0px 22px 100px;
+  }
+  .nav-menu ul {
+    position: absolute;
+    left: -40px;
+    text-align: left;
+    line-height: 40px;
+    font-size: 10px;
+    width: 200px;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    -webkit-transform-origin: 0px 0px;
+            transform-origin: 0px 0px;
+    -webkit-transform: rotateX(-90deg);
+            transform: rotateX(-90deg);
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+  }
   .navbar-toggler {
     padding: 0.25rem 0.75rem;
     font-size: 1.25rem;
@@ -8,30 +53,12 @@
     border-radius: 0.25rem;
   }
   .header-manu-logo {
-    padding: 0px;
-    position: relative;
-    left: 2px;
+    width: 250px;
   }
-  .carousel-inner img {
-    width: 100%;
-  }
-}
-
-@media (max-width: 1200px) {
-  .modal-content {
-    background-color: white;
-    color: black;
-    width: 782px;
-    padding: 50px;
-    text-align: center;
-    border: none;
-    left: 66px;
-    position: absolute;
-    border-radius: 24px;
-  }
-  .dropdown-toggle {
-    position: absolute;
-    right: 40px;
+  .reviews {
+    background: #272727;
+    clear: both;
+    color: white;
   }
 }
 
