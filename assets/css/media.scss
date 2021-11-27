@@ -1,6 +1,7 @@
 @media (max-width: 414px) {
+
     html,
-     body {
+    body {
         width: 100vh;
     }
 
@@ -14,11 +15,12 @@
 
     .nav-menu {
         display: block;
-     
+
         margin: 0px auto 0px;
 
         li {
             float: revert;
+
             a {
                 color: black;
                 display: block;
@@ -58,15 +60,38 @@
     }
 
     .header-manu-logo {
-width: 250px;
+        width: 250px;
     }
 
     .reviews {
         background: #272727;
-
+display: flex;
         clear: both;
         color: white;
     }
+
+    .index-video-contant {
+        width: 100vh;
+        text-align: center;
+    }
+
+
+    .processListItemText {
+        text-align: center;
+
+    }
+
+    .reviewsLogoItem {
+        margin-bottom: 47px;
+        text-align: center;
+        display: list-item;
+    }
+    
+.flip-card {
+
+    width: 100vh; 
+   
+}
 }
 
 

@@ -56,8 +56,26 @@
   }
   .reviews {
     background: #272727;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     clear: both;
     color: white;
+  }
+  .index-video-contant {
+    width: 100vh;
+    text-align: center;
+  }
+  .processListItemText {
+    text-align: center;
+  }
+  .reviewsLogoItem {
+    margin-bottom: 47px;
+    text-align: center;
+    display: list-item;
+  }
+  .flip-card {
+    width: 100vh;
   }
 }
 
