@@ -1452,8 +1452,7 @@ a#send-it {
   width: 40px;
   font-weight: 700;
   padding: 10px 10px 0;
-  background: #eee;
-  border-radius: 10px;
+  background: white;
 }
 
 a#send-it svg {
