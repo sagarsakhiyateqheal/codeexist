@@ -1315,8 +1315,8 @@ a:visited {
   z-index: 99;
   -webkit-animation-name: showchat;
           animation-name: showchat;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
@@ -1816,7 +1816,7 @@ a.close-chat {
 }
 
 .footer-product .fa.fa-facebook {
-  color: blue;
+  color: #3b5998;
   border-radius: 50%;
   border: 1px solid black;
   width: 42px;
