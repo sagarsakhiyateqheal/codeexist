@@ -1863,6 +1863,48 @@ a.close-chat {
   width: 181px;
 }
 
+.co-icon-wrapper {
+  background-color: #0064fe;
+  font-size: 21.12px;
+  height: 58%;
+  width: 40.8px;
+  margin-right: 36.8px;
+  border-radius: 63%;
+  background-clip: padding-box;
+  /* background-color: #333; */
+  color: #fff;
+  text-align: center;
+}
+
+.filter-result .job-box {
+  -webkit-box-shadow: 0 0 35px 0 rgba(130, 130, 130, 0.2);
+  box-shadow: 0 0 35px 0 rgba(130, 130, 130, 0.2);
+  border-radius: 10px;
+  padding: 10px 35px;
+}
+
+.feather-signal {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  padding: 6px 6px;
+  background: blue;
+  color: white;
+}
+
+.co-career-contat {
+  padding: 15px;
+}
+
+.feather-github {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  padding: 5px 5px;
+  background: #f86011;
+  color: white;
+}
+
 .footer-product {
   font-size: 18px !important;
 }
