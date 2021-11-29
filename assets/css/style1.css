@@ -416,6 +416,18 @@ li {
   font-size: 18px !important;
 }
 
+.parallax {
+  /* The image used */
+  background-image: url(https://images.unsplash.com/21/mac-glasses.JPG?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFwdG9wLHRlY2h8fHx8fHwxNjM4MTczMTQz&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600);
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .faq-list {
   list-style: none;
   padding: 0;
