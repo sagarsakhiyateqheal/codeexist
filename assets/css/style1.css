@@ -1885,8 +1885,8 @@ a.close-chat {
 
 .feather-signal {
   border-radius: 50%;
-  height: 30px;
-  width: 30px;
+  height: 35px;
+  width: 35px;
   padding: 6px 6px;
   background: blue;
   color: white;
@@ -1898,11 +1898,123 @@ a.close-chat {
 
 .feather-github {
   border-radius: 50%;
-  height: 30px;
-  width: 30px;
-  padding: 5px 5px;
+  height: 35px;
+  width: 35px;
+  padding: 9px 9px;
   background: #f86011;
   color: white;
+}
+
+.co-current-contant {
+  border: 1px solid #eeeeee;
+  padding: 23px;
+}
+
+.co-card {
+  background: #eeeeee;
+  border: 0;
+}
+
+.co-btn-career {
+  background: #f86011;
+}
+
+.job-post {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 40px;
+  overflow: auto;
+  padding-top: 40px;
+  font-size: 18px;
+}
+
+.job-post .job-side {
+  float: left;
+  width: 35%;
+  padding: 0 20px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.job-post .job-side .job-content-wrap {
+  border-radius: 4px;
+  background: #f5f5f5;
+  border: 2px solid #e9e9e9;
+  padding: 0 30px;
+}
+
+.job-post .job-side .jobs-row {
+  margin: 20px 0;
+}
+
+.job-post .job-side .jobs-row .jobs-row-label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.job-post .job-side .jobs-row .jobs-row-label span {
+  border-bottom: 2px solid #e4e4e4;
+  padding-bottom: 4px;
+}
+
+.job-post .co-button {
+  background-color: #f86113 !important;
+  color: #fff;
+  border-radius: 30px;
+  padding: 12px 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  display: block !important;
+  text-align: center;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.job-post .job-content {
+  float: left;
+  width: 65%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.job-post .job-content-wrap {
+  padding: 0 20px;
+}
+
+.job-post .jobs-row-input {
+  font-size: 18px;
+  line-height: 37px;
+}
+
+.job-post .jobs-row-label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.job-post .jobs-row-label span {
+  border-bottom: 2px solid #e4e4e4;
+  padding-bottom: 4px;
+}
+
+.coe-button {
+  background-color: #f86113 !important;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  display: block !important;
+  width: 100%;
+  text-align: center;
+  border: none;
 }
 
 .footer-product {
