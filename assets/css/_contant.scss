@@ -967,6 +967,7 @@ textarea.input1 {
     min-height: 150px;
     border-radius: 25px;
     padding: 12px 30px;
+    border: 1px solid #6C63FF;
 }
 
 textarea.input1+.shadow-input1 {
@@ -984,7 +985,7 @@ textarea.input1+.shadow-input1 {
 .input1 {
     display: block;
     width: 100%;
-
+    border: 1px solid #6C63FF;
     font-family: Montserrat-Bold;
     font-size: 18px;
     line-height: 1.5;
@@ -1009,19 +1010,6 @@ textarea.input1+.shadow-input1 {
     animation: anim-shadow 0.5s ease-in-out forwards;
 }
 
-@-webkit-keyframes anim-shadow {
-    to {
-        box-shadow: 0px 0px 80px 30px;
-        opacity: 0;
-    }
-}
-
-@keyframes anim-shadow {
-    to {
-        box-shadow: 0px 0px 80px 30px;
-        opacity: 0;
-    }
-}
 
 /*---------------------------------------------*/
 .container-contact1-form-btn {
@@ -1744,3 +1732,50 @@ a.close-chat {
     margin-bottom: -4px;
 }
 
+
+
+
+.covid-badge {
+    width: 46px;
+    height: 46px;
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    border-radius: 25px;
+    z-index: 99999;
+    padding: 3px;
+    transition-duration: .5s;
+    box-shadow: 1px 2px 8px 0px;
+    background: #000;
+    color: #fff;
+    border: none;
+    overflow: hidden;
+  }
+  .covid-badge:before {
+    content: url(		http://dev.hellochef.kitchen/coronavirus.6ac3b35006ade264c098.png);
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    z-index: 1;
+    -webkit-animation: rotating 5s linear infinite;
+    animation: rotating 5s linear infinite;
+    -webkit-animation: spinner-border .99s linear infinite;
+    animation: spinner-border .99s linear infinite;
+  }
+  .covid-badge span {
+    white-space: nowrap;
+    opacity: 0;
+    font-size: 16px;
+    line-height: 20px;
+    transition: all .1s ease;
+  }
+  .covid-badge:hover span {
+    opacity: 1;
+    transition-delay: .3s;
+    transition: all .3s ease;
+  }
+  .covid-badge:hover {
+    width: 181px;
+  }

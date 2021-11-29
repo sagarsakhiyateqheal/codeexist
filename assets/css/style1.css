@@ -86,9 +86,9 @@ li {
 }
 
 .modal-content {
-  background-color: white;
+  background-color: #e2e2e2;
   color: black;
-  width: 729px;
+  width: 635px;
   padding: 30px;
   text-align: center;
   border: none;
@@ -1014,6 +1014,7 @@ textarea.input1 {
   min-height: 150px;
   border-radius: 25px;
   padding: 12px 30px;
+  border: 1px solid #6C63FF;
 }
 
 textarea.input1 + .shadow-input1 {
@@ -1031,6 +1032,7 @@ textarea.input1 + .shadow-input1 {
 .input1 {
   display: block;
   width: 100%;
+  border: 1px solid #6C63FF;
   font-family: Montserrat-Bold;
   font-size: 18px;
   line-height: 1.5;
@@ -1054,22 +1056,6 @@ textarea.input1 + .shadow-input1 {
 .input1:focus + .shadow-input1 {
   -webkit-animation: anim-shadow 0.5s ease-in-out forwards;
   animation: anim-shadow 0.5s ease-in-out forwards;
-}
-
-@-webkit-keyframes anim-shadow {
-  to {
-    -webkit-box-shadow: 0px 0px 80px 30px;
-            box-shadow: 0px 0px 80px 30px;
-    opacity: 0;
-  }
-}
-
-@keyframes anim-shadow {
-  to {
-    -webkit-box-shadow: 0px 0px 80px 30px;
-            box-shadow: 0px 0px 80px 30px;
-    opacity: 0;
-  }
 }
 
 /*---------------------------------------------*/
@@ -1811,6 +1797,60 @@ a.close-chat {
   margin-bottom: -4px;
 }
 
+.covid-badge {
+  width: 46px;
+  height: 46px;
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  border-radius: 25px;
+  z-index: 99999;
+  padding: 3px;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  -webkit-box-shadow: 1px 2px 8px 0px;
+          box-shadow: 1px 2px 8px 0px;
+  background: #000;
+  color: #fff;
+  border: none;
+  overflow: hidden;
+}
+
+.covid-badge:before {
+  content: url(http://dev.hellochef.kitchen/coronavirus.6ac3b35006ade264c098.png);
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  z-index: 1;
+  -webkit-animation: rotating 5s linear infinite;
+  animation: rotating 5s linear infinite;
+  -webkit-animation: spinner-border .99s linear infinite;
+  animation: spinner-border .99s linear infinite;
+}
+
+.covid-badge span {
+  white-space: nowrap;
+  opacity: 0;
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-transition: all .1s ease;
+  transition: all .1s ease;
+}
+
+.covid-badge:hover span {
+  opacity: 1;
+  -webkit-transition-delay: .3s;
+          transition-delay: .3s;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.covid-badge:hover {
+  width: 181px;
+}
+
 .footer-product {
   font-size: 18px !important;
 }
@@ -1818,7 +1858,7 @@ a.close-chat {
 .footer-product .fa.fa-facebook {
   color: #3b5998;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 0;
   width: 42px;
   height: 42px;
   background: white;
@@ -1826,24 +1866,39 @@ a.close-chat {
   margin-left: 28px;
 }
 
+.footer-product .fa.fa-facebook:hover {
+  color: white;
+  background: #3b5998;
+}
+
 .footer-product .fa.fa-instagram {
   color: #d92b6f;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 0;
   width: 42px;
   height: 42px;
   background: white;
   margin-right: 12px;
 }
 
+.footer-product .fa.fa-instagram:hover {
+  color: white;
+  background: #d92b6f;
+}
+
 .footer-product .fa.fa-twitter {
   color: #5aa4d6;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 0;
   width: 42px;
   height: 42px;
   background: white;
   margin-right: 12px;
+}
+
+.footer-product .fa.fa-twitter:hover {
+  color: white;
+  background: #5aa4d6;
 }
 
 .footer-product .content-icon i:hover {

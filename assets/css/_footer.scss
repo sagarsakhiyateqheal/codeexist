@@ -4,35 +4,53 @@
     .fa.fa-facebook {
         color: #3b5998;
         border-radius: 50%;
-        border: 1px solid black;
+        border:0;
         width: 42px;
         height: 42px;
         background: white;
         margin-right: 12px;
         margin-left: 28px;
-       
+
+        &:hover {
+            color: white;
+            background: #3b5998;
+
+        }
+
     }
 
     .fa.fa-instagram {
         color: #d92b6f;
         border-radius: 50%;
-        border: 1px solid black;
+        border:0;
         width: 42px;
         height: 42px;
         background: white;
         margin-right: 12px;
-       
+
+        &:hover {
+            color: white;
+            background: #d92b6f;
+
+        }
+
     }
 
     .fa.fa-twitter {
         color: #5aa4d6;
         border-radius: 50%;
-        border: 1px solid black;
+        border:0;
         width: 42px;
         height: 42px;
         background: white;
         margin-right: 12px;
-     
+
+        &:hover {
+            color: white;
+            background: #5aa4d6;
+
+        }
+
     }
 
     .content-icon {
@@ -41,7 +59,8 @@
 
             &:hover {
                 color: rgba(173, 216, 230, 0.897);
-                background: #000000;;
+                background: #000000;
+                ;
 
             }
         }
