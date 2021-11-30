@@ -5,7 +5,6 @@ li {
 
 .nav-menu {
     display: block;
-
     margin: 0px auto 0px;
 
     li {
@@ -15,15 +14,13 @@ li {
         position: relative;
 
         a {
-            color:black;
+
             display: block;
             text-decoration: none;
-            font-family: 'Roboto Condensed', sans-serif;
-            text-transform: uppercase;
             overflow: visible;
             line-height: 0px;
             font-weight: 300;
-            font-size: 18px;
+            font-size: 20px;
             letter-spacing: 1px;
             padding: 15px 30px 15px 31px;
         }
@@ -42,6 +39,7 @@ li {
         backface-visibility: hidden;
     }
 }
+
 .co-btn {
     background: lightblue;
     border: none;
@@ -54,7 +52,6 @@ li {
         color: white;
         border: black;
         outline: none;
-
     }
 }
 
@@ -64,7 +61,7 @@ li {
 }
 
 .subheader-from {
-    font-size: 18px !important;
+    font-size: 20px !important;
 }
 
 .modal-header {
@@ -91,7 +88,6 @@ li {
     border: 1px solid black;
     outline: none;
     padding: 15px;
-
 }
 
 .co-btn-from {
@@ -99,14 +95,13 @@ li {
     background: lightblue;
     border: none;
     outline: none;
+
     &:hover {
         background: black;
         color: white;
         border: none;
         outline: none;
-
     }
-
 }
 
 .co-from-textarea {
@@ -127,3 +122,4 @@ li {
     font-weight: 100;
 
 }
+

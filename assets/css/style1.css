@@ -27,15 +27,12 @@ li {
 }
 
 .nav-menu li a {
-  color: black;
   display: block;
   text-decoration: none;
-  font-family: 'Roboto Condensed', sans-serif;
-  text-transform: uppercase;
   overflow: visible;
   line-height: 0px;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 1px;
   padding: 15px 30px 15px 31px;
 }
@@ -78,7 +75,7 @@ li {
 }
 
 .subheader-from {
-  font-size: 18px !important;
+  font-size: 20px !important;
 }
 
 .modal-header {
@@ -142,7 +139,7 @@ li {
 }
 
 .reviewsTitle p {
-  font-size: 18px !important;
+  font-size: 20px !important;
 }
 
 .reviews {
@@ -184,12 +181,24 @@ li {
 }
 
 .reviewsBlockItemStars {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.3;
 }
 
 .reviewsBlockItemText p {
-  font-size: 18px !important;
+  font-size: 20px !important;
+}
+
+.co-slider-btn {
+  color: red;
+}
+
+.carousel-indicators li {
+  background-color: black;
+}
+
+.carousel-indicators li.active {
+  background-color: lightblue;
 }
 
 .carousel-inner img {
@@ -304,15 +313,15 @@ li {
 }
 
 .flip-card-back p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .bo-card-title {
-  font-size: 18px !important;
+  font-size: 20px !important;
 }
 
 .card-contant-text {
-  font-size: 18px !important;
+  font-size: 20px !important;
 }
 
 .productsBlockItem:active .productsBlockItemContentBack {
@@ -345,7 +354,7 @@ li {
 }
 
 .productsText p {
-  font-size: 18px !important;
+  font-size: 20px !important;
 }
 
 .process {
@@ -381,7 +390,7 @@ li {
 
 .processBlockContentText {
   max-width: 624px;
-  font-size: 18px !important;
+  font-size: 20px !important;
 }
 
 .processList {
@@ -413,15 +422,12 @@ li {
 }
 
 .processListItemText {
-  font-size: 18px !important;
+  font-size: 20px !important;
 }
 
 .parallax {
-  /* The image used */
   background-image: url(https://images.unsplash.com/21/mac-glasses.JPG?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFwdG9wLHRlY2h8fHx8fHwxNjM4MTczMTQz&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600);
-  /* Set a specific height */
-  min-height: 500px;
-  /* Create the parallax scrolling effect */
+  min-height: 800px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -458,7 +464,7 @@ li {
 .faq-heading {
   position: relative;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   margin: 0;
 }
@@ -500,13 +506,13 @@ li {
 
 .read {
   color: #646464;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   margin-top: 25px;
 }
 
 .section_heading p {
-  font-size: 18px !important;
+  font-size: 20px !important;
 }
 
 .single_advisor_profile {
@@ -602,7 +608,7 @@ li {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .single_advisor_profile:hover .advisor_thumb::after,
@@ -645,7 +651,7 @@ li {
 .bo-for {
   background: #272727;
   color: white;
-  padding: 26px 0 30px;
+  padding: 60px 0 60px;
 }
 
 .forBlock {
@@ -662,7 +668,7 @@ li {
 }
 
 .forBlockItemText {
-  font-size: 18px !important;
+  font-size: 20px !important;
 }
 
 .forBlockItemTitle {
@@ -674,8 +680,6 @@ li {
 
 body {
   background: #eeeeee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
   color: black;
   margin: 0;
   padding: 0;
@@ -737,7 +741,6 @@ body {
   padding: 0px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
 
 .grid-box:hover {
@@ -1004,7 +1007,6 @@ iframe {
 
 .contact1-form-title {
   display: block;
-  font-family: Montserrat-ExtraBold;
   font-size: 38px;
   color: #333333;
   line-height: 1.2;
@@ -1045,7 +1047,6 @@ textarea.input1 + .shadow-input1 {
   display: block;
   width: 100%;
   border: 1px solid #6C63FF;
-  font-family: Montserrat-Bold;
   font-size: 18px;
   line-height: 1.5;
   color: #666666;
@@ -1087,7 +1088,6 @@ textarea.input1 + .shadow-input1 {
   height: 50px;
   border-radius: 25px;
   background: #6C63FF;
-  font-family: Montserrat-Bold;
   font-size: 18px;
   line-height: 1.5;
   color: #fff;
@@ -1120,10 +1120,6 @@ textarea.input1 + .shadow-input1 {
   transform: translateX(10px);
 }
 
-/*------------------------------------------------------------------
-[ Responsive ]*/
-/*------------------------------------------------------------------
-[ Alert validate ]*/
 .validate-input {
   position: relative;
 }
@@ -1238,7 +1234,7 @@ textarea.input1 + .shadow-input1 {
 .team .member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
-  font-size: 18px;
+  font-size: 20px;
   color: #000;
 }
 
@@ -1250,7 +1246,7 @@ textarea.input1 + .shadow-input1 {
 }
 
 .team .member .member-info p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 26px;
   color: #777;
 }
@@ -1267,15 +1263,6 @@ textarea.input1 + .shadow-input1 {
   text-transform: uppercase;
   color: #aaa;
   margin: 0 0 5px;
-}
-
-.section-title h2::after {
-  content: "";
-  width: 120px;
-  height: 1px;
-  display: inline-block;
-  background: #42c8ad;
-  padding: 0px 10px;
 }
 
 .section-title p {
@@ -1597,15 +1584,6 @@ a.close-chat {
   }
 }
 
-@media screen and (max-width: 480px) {
-  #whatsapp-chat {
-    width: auto;
-    left: 5%;
-    right: 5%;
-    font-size: 80%;
-  }
-}
-
 .hide {
   display: none;
   -webkit-animation-name: showhide;
@@ -1823,7 +1801,6 @@ a.close-chat {
   -webkit-box-shadow: 1px 2px 8px 0px;
           box-shadow: 1px 2px 8px 0px;
   background: #000;
-  color: #fff;
   border: none;
   overflow: hidden;
 }
@@ -1885,10 +1862,10 @@ a.close-chat {
 
 .feather-signal {
   border-radius: 50%;
-  height: 35px;
-  width: 35px;
-  padding: 6px 6px;
-  background: blue;
+  height: 40px;
+  width: 40px;
+  padding: 10px 10px;
+  background: #ff0202;
   color: white;
 }
 
@@ -1898,10 +1875,10 @@ a.close-chat {
 
 .feather-github {
   border-radius: 50%;
-  height: 35px;
-  width: 35px;
-  padding: 9px 9px;
-  background: #f86011;
+  height: 40px;
+  width: 40px;
+  padding: 10px 10px;
+  background: #ff0202;
   color: white;
 }
 
@@ -1925,7 +1902,7 @@ a.close-chat {
   margin: 0 auto 40px;
   overflow: auto;
   padding-top: 40px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .job-post .job-side {
@@ -1948,23 +1925,23 @@ a.close-chat {
 }
 
 .job-post .job-side .jobs-row .jobs-row-label {
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 20px;
+  color: #0a0a0a;
   margin-bottom: 10px;
 }
 
 .job-post .job-side .jobs-row .jobs-row-label span {
-  border-bottom: 2px solid #e4e4e4;
+  border-bottom: 2px solid #dbd1d1;
   padding-bottom: 4px;
 }
 
 .job-post .co-button {
-  background-color: #f86113 !important;
+  background-color: lightblue !important;
   color: #fff;
   border-radius: 30px;
   padding: 12px 10px;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 25px;
   margin-top: 5px;
   text-transform: uppercase;
@@ -1987,27 +1964,28 @@ a.close-chat {
 }
 
 .job-post .jobs-row-input {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 37px;
 }
 
 .job-post .jobs-row-label {
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 20px;
   margin-bottom: 10px;
+  color: #0a0a0a;
+  font-weight: 550;
 }
 
 .job-post .jobs-row-label span {
-  border-bottom: 2px solid #e4e4e4;
+  border-bottom: 2px solid #dbd1d1;
   padding-bottom: 4px;
 }
 
 .coe-button {
-  background-color: #f86113 !important;
+  background-color: lightblue !important;
   border-radius: 30px;
   padding: 10px 30px;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 25px;
   margin-top: 5px;
   text-transform: uppercase;
@@ -2017,8 +1995,26 @@ a.close-chat {
   border: none;
 }
 
+#cursor {
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+#cursor-shape {
+  width: 32px;
+  height: 32px;
+  margin-top: -50%;
+  margin-left: -50%;
+  border-radius: 50%;
+  border: 2px solid #F2DA63;
+  background-color: #F24464;
+}
+
 .footer-product {
-  font-size: 18px !important;
+  font-size: 20px !important;
 }
 
 .footer-product .fa.fa-facebook {
@@ -2161,21 +2157,83 @@ a.close-chat {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media (max-width: 480px) {
+  #whatsapp-chat {
+    width: auto;
+    left: 5%;
+    right: 5%;
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 575px) {
+  .single_advisor_profile .advisor_thumb::after {
+    height: 160px;
+    bottom: -90px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-contact1 {
+    padding: 90px 15px 88px 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .single_advisor_profile .single_advisor_details_info h6 {
+    font-size: 14px;
+  }
+  .single_advisor_profile .single_advisor_details_info p {
+    font-size: 12px;
+  }
+  .container-contact1 {
+    padding: 90px 80px 88px 90px;
+  }
+  .contact1-pic {
+    width: 35%;
+  }
+  .contact1-form {
+    width: 55%;
+  }
+  .container-contact1 {
+    padding: 90px 80px 88px 80px;
+  }
+  .contact1-pic {
+    display: none;
+  }
+  .contact1-form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .alert-validate::before {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1000px) {
   .first {
     text-align: center;
   }
   .first h4::after {
     left: 40%;
   }
-}
-
-@media screen and (max-width: 1000px) {
   .third {
     text-align: center;
   }
   .third h4::after {
     left: 40% !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .contact1-pic {
+    width: 33.5%;
+  }
+  .contact1-form {
+    width: 44%;
   }
 }
 /*# sourceMappingURL=style1.css.map */

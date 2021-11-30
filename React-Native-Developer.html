@@ -19,6 +19,11 @@
 </head>
 
 <body>
+
+    <div id="cursor">
+        <div id="cursor-shape"></div>
+    </div>
+
     <nav class="navbar navbar-expand-lg sticky-top shadow-sm  bg-light">
         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
             aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -162,6 +167,227 @@
             </div>
         </div>
     </div>
+
+    <div id="myModal" class="modal fade py-5" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div>
+                        <h1>Your “Request Demo” perks await!</h1>
+                        <p class="subheader-from">Just enter 4 basic details & you are all SET! Why the wait?
+                            Your data is secure with us!</p>
+
+                        <form action="/action_page.php my-4 bg-light ">
+
+                            <div class="wrap-input1 validate-input col-md-12 outline-show"
+                                data-validate="Name is required">
+                                <input class="input1" type="text" name="name" placeholder="Enter Your Name">
+                                <span class="shadow-input1"></span>
+                            </div>
+
+                            <div class="wrap-input1 validate-input col-md-12 outline-show"
+                                data-validate="Name is required">
+                                <input class="input1" type="text" name="name" placeholder="Enter Your Email">
+                                <span class="shadow-input1"></span>
+                            </div>
+
+                            <div class="wrap-input1 validate-input col-md-12 outline-show"
+                                data-validate="Name is required">
+                                <input class="input1" type="text" name="name" placeholder="Enter Your Company Name">
+                                <span class="shadow-input1"></span>
+                            </div>
+
+                            <div class="wrap-input1 validate-input col-md-12 outline-show"
+                                data-validate="Name is required">
+                                <input class="input1" type="text" name="name" placeholder="Enter Your Moblie Number">
+                                <span class="shadow-input1"></span>
+                            </div>
+
+                            <div class="wrap-input1 validate-input col-md-12" data-validate="Message is required">
+                                <textarea class="input1" name="message" placeholder="Message"></textarea>
+                                <span class="shadow-input1"></span>
+                            </div>
+
+
+                            <div class="p-2">
+                                <button class=" ml-3 col-md-5  co-btn-from text-white">Request
+                                    For Demo</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center text-lg-start co-footer-contant">
+        <section class="footer-product py-2">
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 mb-4">
+                        <h4 class=" fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Company name
+                        </h4>
+                        <p>
+                            Here you can use rows and columns to organize your footer content. Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <h4 class=" fw-bold mb-4">
+                            About Us
+                        </h4>
+                        <p class="mb-1">
+                            <a href="#!" class="text-reset ">FAQS</a>
+                        </p>
+                        <p class="mb-1">
+                            <a href="#!" class="text-reset">Culture</a>
+                        </p>
+                        <p class="mb-1">
+                            <a href="#!" class="text-reset">Career</a>
+                        </p>
+                        <p class="mb-1">
+                            <a href="#!" class="text-reset">Location</a>
+                        </p>
+                    </div>
+
+                    <div class="col-md-3  mb-md-0 mb-4">
+                        <h4 class=" fw-bold mb-4 ">
+                            Contact
+                            </h6>
+                            <ul class="footer-product">
+                                <li>
+                                    <p>
+                                        <span class="content-icon">
+                                            <i class="fa fa-map-marker"></i>
+                                        </span>
+                                        Rosenheimer Strasse 117,
+                                        <br>
+                                        81669 Munich.
+                                    </p>
+                                </li>
+                                <li>
+                                    <span class="content-icon">
+                                        <i class="fa fa-envelope"></i>
+                                    </span>
+                                    <a href="#" class="text-dark"> contact@codeexist.de</a>
+                                </li>
+                                <li>
+                                    <span class="content-icon">
+                                        <i class="fa fa-phone"></i>
+                                    </span>
+                                    <a href="#" class="text-dark">+918401565084</a>
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="col-md-3  mb-md-0 mb-4">
+                        <h4 class=" fw-bold mb-4 ">
+                            Products
+                        </h4>
+                        <div class="footer-product mb-5">
+                            <span class="content-icon">
+                                <i class="fa fa-facebook co-icon-footer p-2 "></i>
+                            </span>
+                            <span class="content-icon">
+                                <i class="fa fa-instagram co-icon-footer p-2"></i>
+                            </span>
+                            <span class="content-icon">
+                                <i class="fa fa-twitter co-icon-footer p-2"></i>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="text-center p-4 footer-product" style="background-color: rgba(0, 0, 0, 0.05);">
+            Copyright ©
+            <a class="text-reset fw-bold" href="#"> 2021 codeexist</a>
+        </div>
+
+    </footer>
+
+    
+    <script>
+        const PX_RATIO = window.devicePixelRatio;
+
+        Math.dist = (dx, dy) => {
+            return Math.sqrt(Math.pow(dx, 2) + Math.pow(dy, 2))
+        }
+
+        class Cursor {
+            constructor() {
+                this.container = window["cursor"];
+                this.shape = window["cursor-shape"];
+                this.translation = {
+                    x: 1,
+                    y: 1
+                };
+                this.mouse = {
+                    x: window.innerWidth / 2,
+                    y: window.innerHeight / 2
+                };
+                this.precision = 2;
+                this.scale = 1;
+                this.rotation = 1;
+                this.friction = 0.1;
+                this.animate();
+                this.events();
+            }
+
+            events() {
+                document.addEventListener('mousemove', (e) => {
+                    this.mouse.x = e.clientX * PX_RATIO;
+                    this.mouse.y = e.clientY * PX_RATIO;
+                }, false);
+            }
+
+            animate() {
+                requestAnimationFrame(this.animate.bind(this));
+                this.render();
+            }
+
+            speed_morph() {
+                const dist = Math.dist(this.dx, this.dy);
+                const min = 0.3;
+                const max_distance = 500;
+                const total = dist / max_distance;
+                return Number(Math.min(total, min).toFixed(2));
+            }
+
+            update() {
+                const speed_morph = this.speed_morph(this.dx, this.dy);
+                this.scale += (speed_morph - this.scale) * this.friction;
+
+                this.translation.x += this.dx * this.friction;
+                this.translation.y += this.dy * this.friction;
+
+                this.rotation = Math.atan2(this.dy, this.dx) * 180 / Math.PI;
+
+            }
+
+            render() {
+                this.update();
+                this.container.style.transform = 'translate3d(' + this.translation.x.toFixed(this.precision) +
+                    'px ,' + this.translation.y.toFixed(this.precision) + 'px, 0)';
+                this.shape.style.transform = 'rotate(' + this.rotation.toFixed(this.precision) + 'deg) ' +
+                    'scale(' + (1 + this.scale) + ', ' + (1 - this.scale) + ')';
+            }
+
+            get dx() {
+                return this.mouse.x - this.translation.x;
+            }
+
+            get dy() {
+                return this.mouse.y - this.translation.y;
+            }
+        }
+
+        const _cursor = new Cursor();
+    </script>
 
 </body>
 

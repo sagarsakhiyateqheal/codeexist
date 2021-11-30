@@ -79,21 +79,83 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media (max-width: 480px) {
+  #whatsapp-chat {
+    width: auto;
+    left: 5%;
+    right: 5%;
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 575px) {
+  .single_advisor_profile .advisor_thumb::after {
+    height: 160px;
+    bottom: -90px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-contact1 {
+    padding: 90px 15px 88px 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .single_advisor_profile .single_advisor_details_info h6 {
+    font-size: 14px;
+  }
+  .single_advisor_profile .single_advisor_details_info p {
+    font-size: 12px;
+  }
+  .container-contact1 {
+    padding: 90px 80px 88px 90px;
+  }
+  .contact1-pic {
+    width: 35%;
+  }
+  .contact1-form {
+    width: 55%;
+  }
+  .container-contact1 {
+    padding: 90px 80px 88px 80px;
+  }
+  .contact1-pic {
+    display: none;
+  }
+  .contact1-form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .alert-validate::before {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1000px) {
   .first {
     text-align: center;
   }
   .first h4::after {
     left: 40%;
   }
-}
-
-@media screen and (max-width: 1000px) {
   .third {
     text-align: center;
   }
   .third h4::after {
     left: 40% !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .contact1-pic {
+    width: 33.5%;
+  }
+  .contact1-form {
+    width: 44%;
   }
 }
 /*# sourceMappingURL=media.css.map */
