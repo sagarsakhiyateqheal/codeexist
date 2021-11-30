@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
 html,
 body {
   margin: 0;
@@ -1806,7 +1805,7 @@ a.close-chat {
 }
 
 .covid-badge:before {
-  content: url(http://dev.hellochef.kitchen/coronavirus.6ac3b35006ade264c098.png);
+  content: url(https://images.unsplash.com/photo-1593642702909-dec73df255d7?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=32&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFwdG9wLHRlY2h8fHx8fHwxNjM4Mjc2MzAz&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=32);
   width: 32px;
   height: 32px;
   position: absolute;
