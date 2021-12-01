@@ -1663,56 +1663,6 @@ a.close-chat {
 
 
 
-.covid-badge {
-    width: 46px;
-    height: 46px;
-    position: fixed;
-    left: 10px;
-    bottom: 10px;
-    border-radius: 25px;
-    z-index: 99999;
-    padding: 3px;
-    transition-duration: .5s;
-    box-shadow: 1px 2px 8px 0px;
-    background: #000;
-
-    border: none;
-    overflow: hidden;
-}
-
-.covid-badge:before {
-     content: url(http://dev.hellochef.kitchen/coronavirus.6ac3b35006ade264c098.png);
-    width: 32px;
-    height: 32px;
-    position: absolute;
-    left: 7px;
-    top: 7px;
-    z-index: 1;
-    border-radius: 50%;
-    -webkit-animation: rotating 5s linear infinite;
-    animation: rotating 5s linear infinite;
-    -webkit-animation: spinner-border .99s linear infinite;
-    animation: spinner-border .99s linear infinite;
-}
-
-.covid-badge span {
-    white-space: nowrap;
-    opacity: 0;
-    font-size: 16px;
-    line-height: 20px;
-    transition: all .1s ease;
-}
-
-.covid-badge:hover span {
-    opacity: 1;
-    transition-delay: .3s;
-    transition: all .3s ease;
-}
-
-.covid-badge:hover {
-    width: 181px;
-}
-
 //   career--------------
 
 
@@ -1751,6 +1701,7 @@ a.close-chat {
 .co-career-contat {
     padding: 0px 20px;
 
+
 }
 
 .feather-github {
@@ -1758,9 +1709,12 @@ a.close-chat {
 
     height: 40px;
     width: 40px;
-    padding: 10px 10px;
+    padding: 9px 7px;
     background: #ff0202;
     color: white;
+    display: inline-grid;
+    text-align: center;
+
 
 }
 
@@ -1774,6 +1728,11 @@ a.close-chat {
 .co-card {
     background: rgb(238, 238, 238);
     border: 0;
+
+    span {
+        text-align: center;
+    }
+
 }
 
 .co-btn-career {
@@ -1824,7 +1783,7 @@ a.close-chat {
 
     .co-button {
         background-color: lightblue !important;
-        color: #fff;
+        color: black;
         border-radius: 30px;
         padding: 12px 10px;
         font-weight: 500;
@@ -1881,6 +1840,7 @@ a.close-chat {
     width: 100%;
     text-align: center;
     border: none;
+    color: black;
 
 }
 
