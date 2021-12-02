@@ -7,7 +7,6 @@
 
 .reviews {
     background: #272727;
-
     clear: both;
     color: white;
 }
@@ -34,14 +33,11 @@
     margin-bottom: 15px;
     display: flex;
     text-align: center;
-
 }
 
 .reviewsBlockItemStars {
     font-size: 20px;
     line-height: 1.3;
-
-
 }
 
 .reviewsBlockItemText {
@@ -81,7 +77,6 @@
         position: static;
         margin-top: 0px
     }
-
 }
 
 #myCarousel {
@@ -140,7 +135,6 @@
 
 .productsText {
     position: relative;
-
 }
 
 .productsBtn {
@@ -149,7 +143,6 @@
 }
 
 .flip-card {
-
     /* width: 300px; */
     height: 500px;
     perspective: 1000px;
@@ -199,7 +192,6 @@
     font-size: 20px;
 }
 
-
 .bo-card-title {
     font-size: 20px !important;
 }
@@ -235,7 +227,6 @@
         background: white;
         color: black;
     }
-
 }
 
 .productsText {
@@ -247,7 +238,6 @@
 .process {
     background: rgb(253, 251, 244);
     padding: 50px 0;
-
 }
 
 .processBlock {
@@ -330,7 +320,6 @@
         padding: 27px 30px;
         margin: 0px auto 30px;
         text-align: left;
-
     }
 
     .faq-heading {
@@ -444,7 +433,6 @@
     transform: rotate(-15deg);
 }
 
-
 .single_advisor_profile .advisor_thumb .social-info {
     position: absolute;
     z-index: 1;
@@ -504,14 +492,12 @@
     transition-duration: 500ms;
 }
 
-
 .single_advisor_profile .single_advisor_details_info p {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     margin-bottom: 0;
     font-size: 16px;
 }
-
 
 .single_advisor_profile:hover .advisor_thumb::after,
 .single_advisor_profile:focus .advisor_thumb::after {
@@ -583,8 +569,6 @@
 
 body {
     background: rgb(238, 238, 238);
-
-
     color: $bo-black-color;
     margin: 0;
     padding: 0;
@@ -634,7 +618,6 @@ body {
     margin-right: 0px;
 }
 
-
 .swiper-slide {
 
     img {
@@ -644,7 +627,6 @@ body {
         object-fit: cover;
     }
 }
-
 
 .bo-swiper-img {
     border: 2px solid rgb(20, 20, 20);
@@ -656,15 +638,8 @@ body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
-
 }
-
-
-
 // --------------nimtion---------------
-
-
 
 .grid-box:hover {
     position: relative;
@@ -693,7 +668,6 @@ body {
 .main {
     position: relative;
     height: 350px;
-
     background-image: url(https://images.unsplash.com/photo-1421757295538-9c80958e75b0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=3628f27cd5768ece147877e2dd792c6c);
     background-repeat: no-repeat;
     background-position: center;
@@ -730,7 +704,6 @@ body {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-
     }
 }
 
@@ -763,7 +736,6 @@ body {
             flex: auto;
         }
     }
-
 }
 
 .co-fintest-about {
@@ -776,7 +748,6 @@ body {
         align-items: center;
         justify-content: center;
     }
-
 }
 
 .subheader {
@@ -814,7 +785,6 @@ li {
     margin: 0px;
     list-style-type: none;
 }
-
 
 /*---------------------------------------------*/
 input {
@@ -889,7 +859,6 @@ iframe {
     width: 100%;
     min-height: 100%;
     padding: 15px;
-
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -902,10 +871,8 @@ iframe {
 
 .container-contact1 {
     width: 1163px;
-
     border-radius: 10px;
     overflow: hidden;
-
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -914,7 +881,6 @@ iframe {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-
     padding: 30px 119px 17px 194px;
 }
 
@@ -938,7 +904,6 @@ iframe {
 
 .contact1-form-title {
     display: block;
-
     font-size: 38px;
     color: #333333;
     line-height: 1.2;
@@ -979,7 +944,6 @@ textarea.input1+.shadow-input1 {
     display: block;
     width: 100%;
     border: 1px solid #6C63FF;
-
     font-size: 18px;
     line-height: 1.5;
     color: #666666;
@@ -1003,7 +967,6 @@ textarea.input1+.shadow-input1 {
     animation: anim-shadow 0.5s ease-in-out forwards;
 }
 
-
 /*---------------------------------------------*/
 .container-contact1-form-btn {
     display: -webkit-box;
@@ -1020,7 +983,6 @@ textarea.input1+.shadow-input1 {
     height: 50px;
     border-radius: 25px;
     background: #6C63FF;
-
     font-size: 18px;
     line-height: 1.5;
     color: #fff;
@@ -1032,7 +994,6 @@ textarea.input1+.shadow-input1 {
     justify-content: center;
     align-items: center;
     padding: 0 25px;
-
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -1042,7 +1003,6 @@ textarea.input1+.shadow-input1 {
 .contact1-form-btn {
     i {
         margin-left: 7px;
-
         -webkit-transition: all 0.4s;
         -o-transition: all 0.4s;
         -moz-transition: all 0.4s;
@@ -1062,7 +1022,6 @@ textarea.input1+.shadow-input1 {
         -o-transform: translateX(10px);
         transform: translateX(10px);
     }
-
 }
 
 .validate-input {
@@ -1073,7 +1032,6 @@ textarea.input1+.shadow-input1 {
     content: attr(data-validate);
     position: absolute;
     max-width: 70%;
-
     border: 1px solid #c80000;
     border-radius: 13px;
     padding: 4px 25px 4px 10px;
@@ -1085,16 +1043,13 @@ textarea.input1+.shadow-input1 {
     transform: translateY(-50%);
     right: 8px;
     pointer-events: none;
-
     font-family: Montserrat-Medium;
     color: #c80000;
     font-size: 13px;
     line-height: 1.4;
     text-align: left;
-
     visibility: hidden;
     opacity: 0;
-
     -webkit-transition: opacity 0.4s;
     -o-transition: opacity 0.4s;
     -moz-transition: opacity 0.4s;
@@ -1155,7 +1110,6 @@ textarea.input1+.shadow-input1 {
             transition: ease-in-out .3s;
             text-align: center;
 
-
             a {
                 transition: color .3s;
                 margin: 0px 3px;
@@ -1179,7 +1133,6 @@ textarea.input1+.shadow-input1 {
             .about-twitter {
                 background: #00acee !important;
             }
-
         }
 
         .member-info {
@@ -1206,7 +1159,6 @@ textarea.input1+.shadow-input1 {
             }
         }
     }
-
 }
 
 .section-title {
@@ -1221,9 +1173,7 @@ textarea.input1+.shadow-input1 {
         text-transform: uppercase;
         color: #aaa;
         margin: 0 0 5px;
-
     }
-
 
     p {
         margin: 0px;
@@ -1237,10 +1187,7 @@ textarea.input1+.shadow-input1 {
     height: auto;
 }
 
-
-
 // ----popop------
-
 
 a:link,
 a:visited {
@@ -1339,7 +1286,6 @@ a.blantershow-chat svg {
         width: 50px;
         float: left;
         margin: 0 10px 0 0;
-
     }
 }
 
@@ -1394,7 +1340,6 @@ a#send-it {
     font-weight: 700;
     padding: 10px 10px 0;
     background: white;
-
 
     svg {
         fill: #a6a6a6;
@@ -1477,7 +1422,6 @@ a.close-chat {
         background-color: rgb(182, 181, 186);
     }
 }
-
 
 @keyframes showhide {
     from {
@@ -1693,7 +1637,6 @@ a.close-chat {
 
 .feather-signal {
     border-radius: 50%;
-
     height: 40px;
     width: 40px;
     padding: 10px 10px;
@@ -1707,7 +1650,6 @@ a.close-chat {
 
 .feather-github {
     border-radius: 50%;
-
     height: 40px;
     width: 40px;
     padding: 9px 7px;
@@ -1832,5 +1774,4 @@ a.close-chat {
     text-align: center;
     border: none;
     color: black;
-
 }
