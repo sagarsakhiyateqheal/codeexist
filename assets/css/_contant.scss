@@ -126,7 +126,9 @@
         }
     }
 }
-
+.co-js-slider{
+    justify-content: center;
+}
 
 .productsBottom {
     display: flex;
@@ -255,6 +257,7 @@
 }
 
 .processBlockContent {
+    justify-content: center;
 
     .subtitle {
         margin-bottom: 12px;
@@ -449,6 +452,11 @@
     bottom: 0;
     right: 30px;
     text-align: right;
+}
+
+.co-avtar-text-contant {
+    justify-content: center;
+    display: flex;
 }
 
 .single_advisor_profile .advisor_thumb .social-info a {
@@ -1660,12 +1668,7 @@ a.close-chat {
     margin-bottom: -4px;
 }
 
-
-
-
 //   career--------------
-
-
 
 .co-icon-wrapper {
     background-color: #0064fe;
@@ -1700,8 +1703,6 @@ a.close-chat {
 
 .co-career-contat {
     padding: 0px 20px;
-
-
 }
 
 .feather-github {
@@ -1714,15 +1715,11 @@ a.close-chat {
     color: white;
     display: inline-grid;
     text-align: center;
-
-
 }
 
 .co-current-contant {
     border: 1px solid rgb(238, 238, 238);
     padding: 23px;
-
-
 }
 
 .co-card {
@@ -1732,17 +1729,11 @@ a.close-chat {
     span {
         text-align: center;
     }
-
 }
 
 .co-btn-career {
     background: #f86011;
 }
-
-
-
-
-
 
 .job-post {
     width: 100%;
@@ -1842,22 +1833,4 @@ a.close-chat {
     border: none;
     color: black;
 
-}
-
-#cursor {
-    position: fixed;
-    z-index: 99;
-    left: 0;
-    top: 0;
-    pointer-events: none;
-}
-
-#cursor-shape {
-    width: 32px;
-    height: 32px;
-    margin-top: -50%;
-    margin-left: -50%;
-    border-radius: 50%;
-    border: 2px solid #F2DA63;
-    background-color: #F24464;
 }
